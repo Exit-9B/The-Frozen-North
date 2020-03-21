@@ -1,0 +1,3556 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin version="0.3">
+    <TES4 flags="0x00000200" id="00000000" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown01="0x0000">
+        <HEDR>
+            <struct version="1.70000005" numRecords="73" nextObjectID="00000842"/>
+        </HEDR>
+        <CNAM>Parapets</CNAM>
+        <SNAM>{{Smash.All}}</SNAM>
+        <MAST>Skyrim.esm</MAST>
+        <DATA>0</DATA>
+        <MAST>Update.esm</MAST>
+        <DATA>0</DATA>
+        <MAST>Dawnguard.esm</MAST>
+        <DATA>0</DATA>
+        <MAST>HearthFires.esm</MAST>
+        <DATA>0</DATA>
+        <MAST>Dragonborn.esm</MAST>
+        <DATA>0</DATA>
+        <INTV>1</INTV>
+    </TES4>
+    <GRUP label="GMST" groupType="0" day="98" month="40" lastUserID="0" currentUserID="0" unknown01="0x00000000">
+        <GMST flags="0x00000000" id="000d44a5" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown01="0x0000">
+            <EDID>sFastTravelNoTravelHealthDamage</EDID>
+            <DATA>596F752063616E6E6F7420666173742074726176656C207768696C6520636F6C64206F722074616B696E672064616D6167652E00</DATA>
+        </GMST>
+        <GMST flags="0x00000000" id="000d49ef" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown01="0x0000">
+            <EDID>sNoWaitTakingHealthDamage</EDID>
+            <DATA>596F752063616E6E6F742077616974207768696C6520636F6C64206F722074616B696E672064616D6167652E00</DATA>
+        </GMST>
+        <GMST flags="0x00000000" id="000d4d21" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown01="0x0000">
+            <EDID>sNoSleepTakingHealthDamage</EDID>
+            <DATA>596F752063616E6E6F7420736C656570207768696C6520636F6C64206F722074616B696E672064616D6167652E00</DATA>
+        </GMST>
+    </GRUP>
+    <GRUP label="GLOB" groupType="0" day="98" month="40" lastUserID="0" currentUserID="0" unknown01="0x00000000">
+        <GLOB flags="0x00000000" id="05000804" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown01="0x0000">
+            <EDID>_CNM_ClothingWarmthScale</EDID>
+            <FNAM>102</FNAM>
+            <FLTV>0.03125</FLTV>
+        </GLOB>
+        <GLOB flags="0x00000000" id="05000806" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown01="0x0000">
+            <EDID>_CNM_Enabled</EDID>
+            <FNAM>115</FNAM>
+            <FLTV>1</FLTV>
+        </GLOB>
+        <GLOB flags="0x00000000" id="05000807" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown01="0x0000">
+            <EDID>_CNM_PollingInterval</EDID>
+            <FNAM>102</FNAM>
+            <FLTV>3</FLTV>
+        </GLOB>
+        <GLOB flags="0x00000000" id="05000808" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown01="0x0000">
+            <EDID>_CNM_Sunrise</EDID>
+            <FNAM>102</FNAM>
+            <FLTV>10</FLTV>
+        </GLOB>
+        <GLOB flags="0x00000000" id="05000809" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown01="0x0000">
+            <EDID>_CNM_Sunset</EDID>
+            <FNAM>102</FNAM>
+            <FLTV>20.5</FLTV>
+        </GLOB>
+        <GLOB flags="0x00000000" id="0500080a" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown01="0x0000">
+            <EDID>_CNM_HeatSourceRadius</EDID>
+            <FNAM>102</FNAM>
+            <FLTV>500</FLTV>
+        </GLOB>
+        <GLOB flags="0x00000000" id="0500080e" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown01="0x0000">
+            <EDID>_CNM_FrostResistScale</EDID>
+            <FNAM>102</FNAM>
+            <FLTV>0.015625</FLTV>
+        </GLOB>
+        <GLOB flags="0x00000000" id="0500081a" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown01="0x0000">
+            <EDID>_CNM_ModeCanBeEnabled</EDID>
+            <FNAM>115</FNAM>
+            <FLTV>1</FLTV>
+        </GLOB>
+        <GLOB flags="0x00000000" id="0500081b" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown01="0x0000">
+            <EDID>_CNM_ModeToggle</EDID>
+            <FNAM>115</FNAM>
+            <FLTV>1</FLTV>
+        </GLOB>
+        <GLOB flags="0x00000000" id="0500081c" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown01="0x0000">
+            <EDID>_CNM_WarmingAnimation</EDID>
+            <FNAM>115</FNAM>
+            <FLTV>0</FLTV>
+        </GLOB>
+        <GLOB flags="0x00000000" id="0500081d" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown01="0x0000">
+            <EDID>_CNM_VerboseFeedback</EDID>
+            <FNAM>115</FNAM>
+            <FLTV>1</FLTV>
+        </GLOB>
+        <GLOB flags="0x00000000" id="05000821" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown01="0x0000">
+            <EDID>_CNM_VerboseMessage</EDID>
+            <FNAM>115</FNAM>
+            <FLTV>1</FLTV>
+        </GLOB>
+        <GLOB flags="0x00000000" id="0500082c" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown01="0x0000">
+            <EDID>_CNM_PollingIntervalGameTime</EDID>
+            <FNAM>102</FNAM>
+            <FLTV>0.0833000019</FLTV>
+        </GLOB>
+        <GLOB flags="0x00000000" id="0500082d" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown01="0x0000">
+            <EDID>_CNM_MinSleepTime</EDID>
+            <FNAM>102</FNAM>
+            <FLTV>0.25</FLTV>
+        </GLOB>
+        <GLOB flags="0x00000000" id="0500083d" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown01="0x0000">
+            <EDID>_CNM_VisualFeedback</EDID>
+            <FNAM>115</FNAM>
+            <FLTV>1</FLTV>
+        </GLOB>
+        <GLOB flags="0x00000000" id="0500083e" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown01="0x0000">
+            <EDID>_CNM_LowBodyTempThreshold</EDID>
+            <FNAM>115</FNAM>
+            <FLTV>-2</FLTV>
+        </GLOB>
+        <GLOB flags="0x00000000" id="0500083f" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown01="0x0000">
+            <EDID>_CNM_HeatSourceRadiusSmall</EDID>
+            <FNAM>102</FNAM>
+            <FLTV>375</FLTV>
+        </GLOB>
+    </GRUP>
+    <GRUP label="MGEF" groupType="0" day="98" month="40" lastUserID="0" currentUserID="0" unknown01="0x00000000">
+        <MGEF flags="0x00000000" id="05000800" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown01="0x0000">
+            <EDID>_CNM_LowBodyTempDamageStamina</EDID>
+            <VMAD version="5" format="2">
+                <script name="_CNM_MagicNotifyScript" status="0">
+                    <property name="NotifyMsg" type="1" status="1">
+                        <object formID="05000820" alias="65535" unused="0x0000"/>
+                    </property>
+                </script>
+            </VMAD>
+            <FULL>Low Body Temperature</FULL>
+            <MDOB>000435a5</MDOB>
+            <DATA>
+                <struct flags="0x0c000a05" baseCost="0.300000012" relatedID="00000000" skill="-1" resistanceAV="4294967295" unknown1="0x00000000" lightID="00000000" taperWeight="0" hitShader="00000000" enchantShader="00000000" skillLevel="0" area="0" castingTime="0.5" taperCurve="0" taperDuration="0" secondAVWeight="0" effectType="0" primaryAV="26" projectileID="00000000" explosionID="00000000" castType="0" deliveryType="0" secondAV="-1" castingArtID="00000000" hitEffectArtID="00000000" impactDataID="00000000" skillUsageMult="0" dualCastID="00000000" dualCastScale="1" enchantArtID="00000000" nullData1="0x00000000" nullData2="0x00000000" equipAbility="00000000" imageSpaceModID="00000000" perkID="00000000" soundVolume="0" scriptAIDataScore="0" scriptAIDataDelayTime="0"/>
+            </DATA>
+            <SNDD>
+                <struct spellCost="0" flags="0x0003e957"/>
+                <struct spellCost="1" flags="0x00056622"/>
+                <struct spellCost="2" flags="0x0003f363"/>
+                <struct spellCost="3" flags="0x0003f361"/>
+            </SNDD>
+            <DNAM>Damages Stamina by &lt;mag&gt; per second.</DNAM>
+        </MGEF>
+        <MGEF flags="0x00000000" id="05000801" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown01="0x0000">
+            <EDID>_CNM_DamageHealth</EDID>
+            <FULL>Damage Health</FULL>
+            <MDOB>000435a5</MDOB>
+            <DATA>
+                <struct flags="0x0c008a05" baseCost="0.300000012" relatedID="00000000" skill="-1" resistanceAV="4294967295" unknown1="0x00000000" lightID="00000000" taperWeight="0" hitShader="00000000" enchantShader="00000000" skillLevel="0" area="0" castingTime="0.5" taperCurve="0" taperDuration="0" secondAVWeight="0" effectType="0" primaryAV="24" projectileID="00000000" explosionID="00000000" castType="0" deliveryType="0" secondAV="-1" castingArtID="00000000" hitEffectArtID="00000000" impactDataID="00000000" skillUsageMult="0" dualCastID="00000000" dualCastScale="1" enchantArtID="00000000" nullData1="0x00000000" nullData2="0x00000000" equipAbility="00000000" imageSpaceModID="00000000" perkID="00000000" soundVolume="0" scriptAIDataScore="0" scriptAIDataDelayTime="0"/>
+            </DATA>
+            <SNDD>
+                <struct spellCost="0" flags="0x0003e957"/>
+                <struct spellCost="1" flags="0x00056622"/>
+                <struct spellCost="2" flags="0x0003f363"/>
+                <struct spellCost="3" flags="0x0003f361"/>
+            </SNDD>
+            <DNAM>Damages Health by &lt;mag&gt; per second.</DNAM>
+        </MGEF>
+        <MGEF flags="0x00000000" id="0500080f" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown01="0x0000">
+            <EDID>_CNM_DamageStamina</EDID>
+            <FULL>Damage Stamina</FULL>
+            <MDOB>000435a5</MDOB>
+            <DATA>
+                <struct flags="0x0c008a05" baseCost="0.300000012" relatedID="00000000" skill="-1" resistanceAV="4294967295" unknown1="0x00000000" lightID="00000000" taperWeight="0" hitShader="00000000" enchantShader="00000000" skillLevel="0" area="0" castingTime="0.5" taperCurve="0" taperDuration="0" secondAVWeight="0" effectType="0" primaryAV="26" projectileID="00000000" explosionID="00000000" castType="0" deliveryType="0" secondAV="-1" castingArtID="00000000" hitEffectArtID="00000000" impactDataID="00000000" skillUsageMult="0" dualCastID="00000000" dualCastScale="1" enchantArtID="00000000" nullData1="0x00000000" nullData2="0x00000000" equipAbility="00000000" imageSpaceModID="00000000" perkID="00000000" soundVolume="0" scriptAIDataScore="0" scriptAIDataDelayTime="0"/>
+            </DATA>
+            <SNDD>
+                <struct spellCost="0" flags="0x0003e957"/>
+                <struct spellCost="1" flags="0x00056622"/>
+                <struct spellCost="2" flags="0x0003f363"/>
+                <struct spellCost="3" flags="0x0003f361"/>
+            </SNDD>
+            <DNAM>Damages Stamina by &lt;mag&gt; per second.</DNAM>
+        </MGEF>
+        <MGEF flags="0x00000000" id="05000810" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown01="0x0000">
+            <EDID>_CNM_WellFedEffect</EDID>
+            <FULL>Well Fed</FULL>
+            <MDOB>000435a5</MDOB>
+            <DATA>
+                <struct flags="0x00000202" baseCost="0" relatedID="00000000" skill="-1" resistanceAV="4294967295" unknown1="0x00000000" lightID="00000000" taperWeight="0" hitShader="00000000" enchantShader="00000000" skillLevel="0" area="0" castingTime="0" taperCurve="0" taperDuration="0" secondAVWeight="0" effectType="34" primaryAV="155" projectileID="00000000" explosionID="00000000" castType="0" deliveryType="0" secondAV="-1" castingArtID="00000000" hitEffectArtID="00000000" impactDataID="00000000" skillUsageMult="0" dualCastID="00000000" dualCastScale="1" enchantArtID="00000000" nullData1="0x00000000" nullData2="0x00000000" equipAbility="00000000" imageSpaceModID="00000000" perkID="00000000" soundVolume="1" scriptAIDataScore="0" scriptAIDataDelayTime="0"/>
+            </DATA>
+            <SNDD/>
+            <DNAM>Health regenerates &lt;mag&gt;% faster.</DNAM>
+        </MGEF>
+        <MGEF flags="0x00000000" id="05000811" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown01="0x0000">
+            <EDID>_CNM_BuzzedEffect</EDID>
+            <VMAD version="5" format="2">
+                <script name="TimedAbilityScript" status="0">
+                    <property name="pAbilityToRemove" type="1" status="1">
+                        <object formID="05000813" alias="65535" unused="0x0000"/>
+                    </property>
+                    <property name="pHoursToWait" type="3" status="1">2</property>
+                </script>
+            </VMAD>
+            <FULL>Buzzed</FULL>
+            <MDOB>000435a5</MDOB>
+            <DATA>
+                <struct flags="0x00000602" baseCost="0" relatedID="00000000" skill="-1" resistanceAV="4294967295" unknown1="0x00000000" lightID="00000000" taperWeight="0" hitShader="00000000" enchantShader="00000000" skillLevel="0" area="0" castingTime="0" taperCurve="0" taperDuration="0" secondAVWeight="0" effectType="1" primaryAV="-1" projectileID="00000000" explosionID="00000000" castType="0" deliveryType="0" secondAV="-1" castingArtID="00000000" hitEffectArtID="00000000" impactDataID="00000000" skillUsageMult="0" dualCastID="00000000" dualCastScale="1" enchantArtID="00000000" nullData1="0x00000000" nullData2="0x00000000" equipAbility="00000000" imageSpaceModID="00000000" perkID="00000000" soundVolume="1" scriptAIDataScore="0" scriptAIDataDelayTime="0"/>
+            </DATA>
+            <SNDD/>
+            <DNAM>You feel slightly intoxicated for &lt;2&gt; hours.</DNAM>
+        </MGEF>
+        <MGEF flags="0x00000000" id="05000814" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown01="0x0000">
+            <EDID>_CNM_ClearMindEffect</EDID>
+            <VMAD version="5" format="2">
+                <script name="TimedAbilityScript" status="0">
+                    <property name="pAbilityToRemove" type="1" status="1">
+                        <object formID="05000816" alias="65535" unused="0x0000"/>
+                    </property>
+                    <property name="pHoursToWait" type="3" status="1">16</property>
+                </script>
+            </VMAD>
+            <FULL>Clear Mind</FULL>
+            <MDOB>000435a5</MDOB>
+            <DATA>
+                <struct flags="0x00000202" baseCost="0" relatedID="00000000" skill="-1" resistanceAV="4294967295" unknown1="0x00000000" lightID="00000000" taperWeight="0" hitShader="00000000" enchantShader="00000000" skillLevel="0" area="0" castingTime="0" taperCurve="0" taperDuration="0" secondAVWeight="0" effectType="34" primaryAV="156" projectileID="00000000" explosionID="00000000" castType="0" deliveryType="0" secondAV="-1" castingArtID="00000000" hitEffectArtID="00000000" impactDataID="00000000" skillUsageMult="0" dualCastID="00000000" dualCastScale="1" enchantArtID="00000000" nullData1="0x00000000" nullData2="0x00000000" equipAbility="00000000" imageSpaceModID="00000000" perkID="00000000" soundVolume="1" scriptAIDataScore="0" scriptAIDataDelayTime="0"/>
+            </DATA>
+            <SNDD/>
+            <DNAM>Magicka regenerates &lt;mag&gt;% faster for &lt;16&gt; hours.</DNAM>
+        </MGEF>
+        <MGEF flags="0x00000000" id="05000815" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown01="0x0000">
+            <EDID>_CNM_FastMetabolismEffect</EDID>
+            <VMAD version="5" format="2">
+                <script name="TimedAbilityScript" status="0">
+                    <property name="pAbilityToRemove" type="1" status="1">
+                        <object formID="05000817" alias="65535" unused="0x0000"/>
+                    </property>
+                    <property name="pHoursToWait" type="3" status="1">16</property>
+                </script>
+            </VMAD>
+            <FULL>Fast Metabolism</FULL>
+            <MDOB>000435a5</MDOB>
+            <DATA>
+                <struct flags="0x00000202" baseCost="0" relatedID="00000000" skill="-1" resistanceAV="4294967295" unknown1="0x00000000" lightID="00000000" taperWeight="0" hitShader="00000000" enchantShader="00000000" skillLevel="0" area="0" castingTime="0" taperCurve="0" taperDuration="0" secondAVWeight="0" effectType="34" primaryAV="157" projectileID="00000000" explosionID="00000000" castType="0" deliveryType="0" secondAV="-1" castingArtID="00000000" hitEffectArtID="00000000" impactDataID="00000000" skillUsageMult="0" dualCastID="00000000" dualCastScale="1" enchantArtID="00000000" nullData1="0x00000000" nullData2="0x00000000" equipAbility="00000000" imageSpaceModID="00000000" perkID="00000000" soundVolume="1" scriptAIDataScore="0" scriptAIDataDelayTime="0"/>
+            </DATA>
+            <SNDD/>
+            <DNAM>Stamina regenerates &lt;mag&gt;% faster for &lt;16&gt; hours.</DNAM>
+        </MGEF>
+        <MGEF flags="0x00000000" id="05000822" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown01="0x0000">
+            <EDID>_CNM_DamageStaminaRate</EDID>
+            <FULL>Damage Stamina Regeneration</FULL>
+            <MDOB>000435a5</MDOB>
+            <DATA>
+                <struct flags="0x08000a06" baseCost="0" relatedID="00000000" skill="-1" resistanceAV="4294967295" unknown1="0x00000000" lightID="00000000" taperWeight="0" hitShader="00000000" enchantShader="00000000" skillLevel="0" area="0" castingTime="0" taperCurve="0" taperDuration="0" secondAVWeight="0" effectType="34" primaryAV="157" projectileID="00000000" explosionID="00000000" castType="0" deliveryType="0" secondAV="-1" castingArtID="00000000" hitEffectArtID="00000000" impactDataID="00000000" skillUsageMult="0" dualCastID="00000000" dualCastScale="1" enchantArtID="00000000" nullData1="0x00000000" nullData2="0x00000000" equipAbility="00000000" imageSpaceModID="00000000" perkID="00000000" soundVolume="0" scriptAIDataScore="0" scriptAIDataDelayTime="0"/>
+            </DATA>
+            <SNDD>
+                <struct spellCost="0" flags="0x0003e957"/>
+                <struct spellCost="1" flags="0x00056622"/>
+                <struct spellCost="2" flags="0x0003f363"/>
+                <struct spellCost="3" flags="0x0003f361"/>
+            </SNDD>
+            <DNAM>Stamina regenerates &lt;mag&gt;% slower.</DNAM>
+        </MGEF>
+        <MGEF flags="0x00000000" id="05000831" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown01="0x0000">
+            <EDID>_CNM_FortifyStaminaRate</EDID>
+            <FULL>Regenerate Stamina</FULL>
+            <MDOB>000435a5</MDOB>
+            <DATA>
+                <struct flags="0x08000a02" baseCost="0" relatedID="00000000" skill="-1" resistanceAV="4294967295" unknown1="0x00000000" lightID="00000000" taperWeight="0" hitShader="00000000" enchantShader="00000000" skillLevel="0" area="0" castingTime="0" taperCurve="0" taperDuration="0" secondAVWeight="0" effectType="34" primaryAV="157" projectileID="00000000" explosionID="00000000" castType="0" deliveryType="0" secondAV="-1" castingArtID="00000000" hitEffectArtID="00000000" impactDataID="00000000" skillUsageMult="0" dualCastID="00000000" dualCastScale="1" enchantArtID="00000000" nullData1="0x00000000" nullData2="0x00000000" equipAbility="00000000" imageSpaceModID="00000000" perkID="00000000" soundVolume="0" scriptAIDataScore="0" scriptAIDataDelayTime="0"/>
+            </DATA>
+            <SNDD>
+                <struct spellCost="0" flags="0x0003e957"/>
+                <struct spellCost="1" flags="0x00056622"/>
+                <struct spellCost="2" flags="0x0003f363"/>
+                <struct spellCost="3" flags="0x0003f361"/>
+            </SNDD>
+            <DNAM>Stamina regenerates &lt;mag&gt;% faster.</DNAM>
+        </MGEF>
+        <MGEF flags="0x00000000" id="0500083b" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown01="0x0000">
+            <EDID>_CNM_FortifyWarmthConstant</EDID>
+            <FULL>Fortify Warmth</FULL>
+            <MDOB>000435a5</MDOB>
+            <DATA>
+                <struct flags="0x04000a12" baseCost="0" relatedID="00000000" skill="-1" resistanceAV="4294967295" unknown1="0x00000000" lightID="00000000" taperWeight="0" hitShader="00000000" enchantShader="00000000" skillLevel="0" area="0" castingTime="0" taperCurve="0" taperDuration="0" secondAVWeight="0" effectType="34" primaryAV="76" projectileID="00000000" explosionID="00000000" castType="0" deliveryType="0" secondAV="-1" castingArtID="00000000" hitEffectArtID="00000000" impactDataID="00000000" skillUsageMult="0" dualCastID="00000000" dualCastScale="1" enchantArtID="00000000" nullData1="0x00000000" nullData2="0x00000000" equipAbility="00000000" imageSpaceModID="00000000" perkID="00000000" soundVolume="1" scriptAIDataScore="0" scriptAIDataDelayTime="0"/>
+            </DATA>
+            <SNDD/>
+            <DNAM>Warmth is increased by &lt;mag&gt; points.</DNAM>
+        </MGEF>
+        <MGEF flags="0x00000000" id="0500083c" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown01="0x0000">
+            <EDID>_CNM_FoodDamageMagickaRate</EDID>
+            <VMAD version="5" format="2">
+                <script name="MagicImodOnPlayerHitScript" status="0">
+                    <property name="OnStartImodFX" type="1" status="1">
+                        <object formID="0010e3d2" alias="65535" unused="0x0000"/>
+                    </property>
+                    <property name="OnFinishImodFX" type="1" status="1">
+                        <object formID="0010e3d3" alias="65535" unused="0x0000"/>
+                    </property>
+                </script>
+            </VMAD>
+            <FULL>Damage Magicka Regeneration</FULL>
+            <MDOB>000435a5</MDOB>
+            <KSIZ>1</KSIZ>
+            <KWDA>00042509</KWDA>
+            <DATA>
+                <struct flags="0x00400806" baseCost="0.5" relatedID="00000000" skill="-1" resistanceAV="4294967295" unknown1="0x00000000" lightID="00000000" taperWeight="0" hitShader="0010cc64" enchantShader="00000000" skillLevel="0" area="0" castingTime="0.5" taperCurve="0" taperDuration="0" secondAVWeight="0" effectType="0" primaryAV="156" projectileID="00000000" explosionID="00000000" castType="1" deliveryType="0" secondAV="-1" castingArtID="00000000" hitEffectArtID="00000000" impactDataID="00000000" skillUsageMult="0" dualCastID="00000000" dualCastScale="1" enchantArtID="00000000" nullData1="0x00000000" nullData2="0x00000000" equipAbility="00000000" imageSpaceModID="00000000" perkID="00000000" soundVolume="0" scriptAIDataScore="0" scriptAIDataDelayTime="0"/>
+            </DATA>
+            <SNDD>
+                <struct spellCost="0" flags="0x0003e957"/>
+                <struct spellCost="1" flags="0x00056622"/>
+                <struct spellCost="2" flags="0x0003f363"/>
+                <struct spellCost="3" flags="0x0003f361"/>
+            </SNDD>
+            <DNAM>Magicka regenerates &lt;mag&gt;% slower for &lt;dur&gt; seconds.</DNAM>
+        </MGEF>
+    </GRUP>
+    <GRUP label="SPEL" groupType="0" day="98" month="40" lastUserID="0" currentUserID="0" unknown01="0x00000000">
+        <SPEL flags="0x00000000" id="05000802" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown01="0x0000">
+            <EDID>_CNM_DebuffCold</EDID>
+            <OBND>
+                <struct min="0,0,0" max="0,0,0"/>
+            </OBND>
+            <FULL>Cold</FULL>
+            <MDOB>000435a5</MDOB>
+            <ETYP>00013f44</ETYP>
+            <DESC/>
+            <SPIT>
+                <struct spellCost="619" flags="0x00300000" type="4" chargeTime="0" castType="0" delivery="0" castDuration="0" range="0" perk="00000000"/>
+            </SPIT>
+            <EFID>05000822</EFID>
+            <EFIT>
+                <struct magnitude="80" areaOfEffect="0" duration="0"/>
+            </EFIT>
+        </SPEL>
+        <SPEL flags="0x00000000" id="05000803" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown01="0x0000">
+            <EDID>_CNM_DebuffFreezing</EDID>
+            <OBND>
+                <struct min="0,0,0" max="0,0,0"/>
+            </OBND>
+            <FULL>Freezing</FULL>
+            <MDOB>000435a5</MDOB>
+            <ETYP>00013f44</ETYP>
+            <DESC/>
+            <SPIT>
+                <struct spellCost="1012" flags="0x00300000" type="4" chargeTime="0.5" castType="0" delivery="0" castDuration="0" range="0" perk="00000000"/>
+            </SPIT>
+            <EFID>05000822</EFID>
+            <EFIT>
+                <struct magnitude="125" areaOfEffect="0" duration="0"/>
+            </EFIT>
+        </SPEL>
+        <SPEL flags="0x00000000" id="05000812" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown01="0x0000">
+            <EDID>_CNM_WellFed</EDID>
+            <OBND>
+                <struct min="0,0,0" max="0,0,0"/>
+            </OBND>
+            <FULL>Well Fed</FULL>
+            <ETYP>00013f44</ETYP>
+            <DESC>Health regenerates &lt;20&gt;% faster for &lt;8&gt; hours.</DESC>
+            <SPIT>
+                <struct spellCost="0" flags="0x00300000" type="4" chargeTime="0" castType="0" delivery="0" castDuration="0" range="0" perk="00000000"/>
+            </SPIT>
+            <EFID>05000810</EFID>
+            <EFIT>
+                <struct magnitude="20" areaOfEffect="0" duration="0"/>
+            </EFIT>
+        </SPEL>
+        <SPEL flags="0x00000000" id="05000813" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown01="0x0000">
+            <EDID>_CNM_Buzzed</EDID>
+            <OBND>
+                <struct min="0,0,0" max="0,0,0"/>
+            </OBND>
+            <FULL>Buzzed</FULL>
+            <ETYP>00013f44</ETYP>
+            <DESC/>
+            <SPIT>
+                <struct spellCost="0" flags="0x00300000" type="4" chargeTime="0" castType="0" delivery="0" castDuration="0" range="0" perk="00000000"/>
+            </SPIT>
+            <EFID>05000811</EFID>
+            <EFIT>
+                <struct magnitude="0" areaOfEffect="0" duration="0"/>
+            </EFIT>
+        </SPEL>
+        <SPEL flags="0x00000000" id="05000816" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown01="0x0000">
+            <EDID>_CNM_ClearMind</EDID>
+            <OBND>
+                <struct min="0,0,0" max="0,0,0"/>
+            </OBND>
+            <FULL>Clear Mind</FULL>
+            <ETYP>00013f44</ETYP>
+            <DESC/>
+            <SPIT>
+                <struct spellCost="0" flags="0x00300000" type="4" chargeTime="0" castType="0" delivery="0" castDuration="0" range="0" perk="00000000"/>
+            </SPIT>
+            <EFID>05000814</EFID>
+            <EFIT>
+                <struct magnitude="20" areaOfEffect="0" duration="0"/>
+            </EFIT>
+        </SPEL>
+        <SPEL flags="0x00000000" id="05000817" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown01="0x0000">
+            <EDID>_CNM_FastMetabolism</EDID>
+            <OBND>
+                <struct min="0,0,0" max="0,0,0"/>
+            </OBND>
+            <FULL>Fast Metabolism</FULL>
+            <ETYP>00013f44</ETYP>
+            <DESC/>
+            <SPIT>
+                <struct spellCost="0" flags="0x00300000" type="4" chargeTime="0" castType="0" delivery="0" castDuration="0" range="0" perk="00000000"/>
+            </SPIT>
+            <EFID>05000815</EFID>
+            <EFIT>
+                <struct magnitude="20" areaOfEffect="0" duration="0"/>
+            </EFIT>
+        </SPEL>
+        <SPEL flags="0x00000000" id="05000819" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown01="0x0000">
+            <EDID>_CNM_LowBodyTemp</EDID>
+            <OBND>
+                <struct min="0,0,0" max="0,0,0"/>
+            </OBND>
+            <FULL>Low Body Temperature</FULL>
+            <ETYP>00013f44</ETYP>
+            <DESC>Drains &lt;1&gt; Stamina per second, increased to &lt;3&gt; when running or swimming. Drains Health when out of Stamina.</DESC>
+            <SPIT>
+                <struct spellCost="0" flags="0x00300000" type="4" chargeTime="0.5" castType="0" delivery="0" castDuration="0" range="0" perk="00000000"/>
+            </SPIT>
+            <EFID>05000800</EFID>
+            <EFIT>
+                <struct magnitude="1" areaOfEffect="0" duration="0"/>
+            </EFIT>
+            <CTDA>
+                <ctda operator="0x80" unknown0="0x00,0x00,0x00" comparisonValueFloat="0" functionIndex="14" padding="0x00,0x00" param1="0x0000009d" param2="0x00000000" runOnType="0" reference="00000000" unknown1="0xffffffff"/>
+            </CTDA>
+            <EFID>0500080f</EFID>
+            <EFIT>
+                <struct magnitude="2" areaOfEffect="0" duration="0"/>
+            </EFIT>
+            <CTDA>
+                <ctda operator="0x80" unknown0="0x00,0x00,0x00" comparisonValueFloat="0" functionIndex="14" padding="0x00,0x00" param1="0x0000009d" param2="0x00000000" runOnType="0" reference="00000000" unknown1="0xffffffff"/>
+            </CTDA>
+            <CTDA>
+                <ctda operator="0x01" unknown0="0x00,0x00,0x00" comparisonValueFloat="1" functionIndex="287" padding="0x00,0x00" param1="0x00000000" param2="0x00000000" runOnType="0" reference="00000000" unknown1="0xffffffff"/>
+            </CTDA>
+            <CTDA>
+                <ctda operator="0x00" unknown0="0x00,0x00,0x00" comparisonValueFloat="1" functionIndex="287" padding="0x00,0x00" param1="0x00000000" param2="0x00000000" runOnType="0" reference="00000000" unknown1="0xffffffff"/>
+            </CTDA>
+            <EFID>05000801</EFID>
+            <EFIT>
+                <struct magnitude="1" areaOfEffect="0" duration="0"/>
+            </EFIT>
+            <CTDA>
+                <ctda operator="0x00" unknown0="0x00,0x00,0x00" comparisonValueFloat="0" functionIndex="14" padding="0x00,0x00" param1="0x0000001a" param2="0x00000000" runOnType="0" reference="00000000" unknown1="0xffffffff"/>
+            </CTDA>
+            <CTDA>
+                <ctda operator="0x80" unknown0="0x00,0x00,0x00" comparisonValueFloat="0" functionIndex="14" padding="0x00,0x00" param1="0x0000009d" param2="0x00000000" runOnType="0" reference="00000000" unknown1="0xffffffff"/>
+            </CTDA>
+            <EFID>05000801</EFID>
+            <EFIT>
+                <struct magnitude="2" areaOfEffect="0" duration="0"/>
+            </EFIT>
+            <CTDA>
+                <ctda operator="0x00" unknown0="0x00,0x00,0x00" comparisonValueFloat="0" functionIndex="14" padding="0x00,0x00" param1="0x0000001a" param2="0x00000000" runOnType="0" reference="00000000" unknown1="0xffffffff"/>
+            </CTDA>
+            <CTDA>
+                <ctda operator="0x80" unknown0="0x00,0x00,0x00" comparisonValueFloat="0" functionIndex="14" padding="0x00,0x00" param1="0x0000009d" param2="0x00000000" runOnType="0" reference="00000000" unknown1="0xffffffff"/>
+            </CTDA>
+            <CTDA>
+                <ctda operator="0x01" unknown0="0x00,0x00,0x00" comparisonValueFloat="1" functionIndex="287" padding="0x00,0x00" param1="0x00000000" param2="0x00000000" runOnType="0" reference="00000000" unknown1="0xffffffff"/>
+            </CTDA>
+            <CTDA>
+                <ctda operator="0x00" unknown0="0x00,0x00,0x00" comparisonValueFloat="1" functionIndex="185" padding="0x00,0x00" param1="0x00000000" param2="0x00000000" runOnType="0" reference="00000000" unknown1="0xffffffff"/>
+            </CTDA>
+        </SPEL>
+        <SPEL flags="0x00000000" id="05000826" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown01="0x0000">
+            <EDID>_CNM_DebuffChilly</EDID>
+            <OBND>
+                <struct min="0,0,0" max="0,0,0"/>
+            </OBND>
+            <FULL>Chilly</FULL>
+            <MDOB>000435a5</MDOB>
+            <ETYP>00013f44</ETYP>
+            <DESC/>
+            <SPIT>
+                <struct spellCost="0" flags="0x00300000" type="4" chargeTime="0" castType="0" delivery="0" castDuration="0" range="0" perk="00000000"/>
+            </SPIT>
+            <EFID>05000822</EFID>
+            <EFIT>
+                <struct magnitude="35" areaOfEffect="0" duration="0"/>
+            </EFIT>
+        </SPEL>
+        <SPEL flags="0x00000000" id="05000832" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown01="0x0000">
+            <EDID>_CNM_BuffWarm</EDID>
+            <OBND>
+                <struct min="0,0,0" max="0,0,0"/>
+            </OBND>
+            <FULL>Warm</FULL>
+            <MDOB>000435a5</MDOB>
+            <ETYP>00013f44</ETYP>
+            <DESC/>
+            <SPIT>
+                <struct spellCost="0" flags="0x00300000" type="4" chargeTime="0" castType="0" delivery="0" castDuration="0" range="0" perk="00000000"/>
+            </SPIT>
+            <EFID>05000831</EFID>
+            <EFIT>
+                <struct magnitude="30" areaOfEffect="0" duration="0"/>
+            </EFIT>
+        </SPEL>
+    </GRUP>
+    <GRUP label="COBJ" groupType="0" day="98" month="40" lastUserID="0" currentUserID="0" unknown01="0x00000000">
+        <COBJ flags="0x00000000" id="05000818" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown01="0x0000">
+            <EDID>_CNM_DLC2RecipeFoodBoarCooked</EDID>
+            <COCT>2</COCT>
+            <CNTO>
+                <struct item="00034cdf" count="1"/>
+            </CNTO>
+            <CNTO>
+                <struct item="0403bd14" count="1"/>
+            </CNTO>
+            <CNAM>0403cf72</CNAM>
+            <NAM1>1</NAM1>
+        </COBJ>
+    </GRUP>
+    <GRUP label="QUST" groupType="0" day="98" month="40" lastUserID="0" currentUserID="0" unknown01="0x00000000">
+        <QUST flags="0x00000000" id="05000828" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown01="0x0000">
+            <EDID>_CNM_ColdQuest</EDID>
+            <VMAD version="5" format="2">
+                <fragments unknown="0x02" filename="">
+                    <alias unknown="0x00000000" object="0x05000828" version="5" objectFormat="2">
+                        <script name="_CNM_PlayerColdScript" status="0">
+                            <property name="ColdMsg" type="1" status="1">
+                                <object formID="05000824" alias="65535" unused="0x0000"/>
+                            </property>
+                            <property name="VerboseFeedback" type="1" status="1">
+                                <object formID="0500081d" alias="65535" unused="0x0000"/>
+                            </property>
+                            <property name="PollingInterval" type="1" status="1">
+                                <object formID="0500082c" alias="65535" unused="0x0000"/>
+                            </property>
+                            <property name="BeastRaces" type="1" status="1">
+                                <object formID="0500083a" alias="65535" unused="0x0000"/>
+                            </property>
+                            <property name="IMODChilly" type="1" status="1">
+                                <object formID="0500080c" alias="65535" unused="0x0000"/>
+                            </property>
+                            <property name="Survival_ArmorCold" type="1" status="1">
+                                <object formID="01002ed8" alias="65535" unused="0x0000"/>
+                            </property>
+                            <property name="ClothingWarmthScale" type="1" status="1">
+                                <object formID="05000804" alias="65535" unused="0x0000"/>
+                            </property>
+                            <property name="FreezingMsg" type="1" status="1">
+                                <object formID="05000825" alias="65535" unused="0x0000"/>
+                            </property>
+                            <property name="WarmMsg" type="1" status="1">
+                                <object formID="05000827" alias="65535" unused="0x0000"/>
+                            </property>
+                            <property name="DebuffAbilityFreezing" type="1" status="1">
+                                <object formID="05000803" alias="65535" unused="0x0000"/>
+                            </property>
+                            <property name="DebuffAbilityLowBodyTemp" type="1" status="1">
+                                <object formID="05000819" alias="65535" unused="0x0000"/>
+                            </property>
+                            <property name="PlayerRef" type="1" status="1">
+                                <object formID="00000014" alias="65535" unused="0x0000"/>
+                            </property>
+                            <property name="Enabled" type="1" status="1">
+                                <object formID="05000806" alias="65535" unused="0x0000"/>
+                            </property>
+                            <property name="HeatSourceScript" type="1" status="1">
+                                <object formID="0500082e" alias="0" unused="0x0000"/>
+                            </property>
+                            <property name="TemperatureLevel" type="1" status="1">
+                                <object formID="01002edd" alias="65535" unused="0x0000"/>
+                            </property>
+                            <property name="VisualFeedback" type="1" status="1">
+                                <object formID="0500083d" alias="65535" unused="0x0000"/>
+                            </property>
+                            <property name="DebuffAbilityCold" type="1" status="1">
+                                <object formID="05000802" alias="65535" unused="0x0000"/>
+                            </property>
+                            <property name="MagicFlameCloak" type="1" status="1">
+                                <object formID="01002eda" alias="65535" unused="0x0000"/>
+                            </property>
+                            <property name="InteriorColdCells" type="1" status="1">
+                                <object formID="05000829" alias="65535" unused="0x0000"/>
+                            </property>
+                            <property name="FrostResistScale" type="1" status="1">
+                                <object formID="0500080e" alias="65535" unused="0x0000"/>
+                            </property>
+                            <property name="InteriorColdZones" type="1" status="1">
+                                <object formID="0500080d" alias="65535" unused="0x0000"/>
+                            </property>
+                            <property name="Sunrise" type="1" status="1">
+                                <object formID="05000808" alias="65535" unused="0x0000"/>
+                            </property>
+                            <property name="BuffAbilityWarm" type="1" status="1">
+                                <object formID="05000832" alias="65535" unused="0x0000"/>
+                            </property>
+                            <property name="IMODCold" type="1" status="1">
+                                <object formID="0500080b" alias="65535" unused="0x0000"/>
+                            </property>
+                            <property name="ChillyMsg" type="1" status="1">
+                                <object formID="05000823" alias="65535" unused="0x0000"/>
+                            </property>
+                            <property name="Sunset" type="1" status="1">
+                                <object formID="05000809" alias="65535" unused="0x0000"/>
+                            </property>
+                            <property name="ActorTypeUndead" type="1" status="1">
+                                <object formID="00013796" alias="65535" unused="0x0000"/>
+                            </property>
+                            <property name="IMODFreezing" type="1" status="1">
+                                <object formID="05000805" alias="65535" unused="0x0000"/>
+                            </property>
+                            <property name="Survival_ArmorWarm" type="1" status="1">
+                                <object formID="01002ed9" alias="65535" unused="0x0000"/>
+                            </property>
+                            <property name="DebuffAbilityChilly" type="1" status="1">
+                                <object formID="05000826" alias="65535" unused="0x0000"/>
+                            </property>
+                            <property name="LowBodyTempThreshold" type="1" status="1">
+                                <object formID="0500083e" alias="65535" unused="0x0000"/>
+                            </property>
+                            <property name="ColdStatics" type="1" status="1">
+                                <object formID="05000841" alias="65535" unused="0x0000"/>
+                            </property>
+                        </script>
+                    </alias>
+                </fragments>
+            </VMAD>
+            <DNAM>
+                <struct flags="0x0011" priority="80" unknown0="0xff" unknown1="0x00000000" type="0"/>
+            </DNAM>
+            <NEXT/>
+            <ANAM>1</ANAM>
+            <ALST>0</ALST>
+            <ALID>Player</ALID>
+            <FNAM>0</FNAM>
+            <ALFR>00000014</ALFR>
+            <VTCK>00000000</VTCK>
+            <ALED/>
+        </QUST>
+        <QUST flags="0x00000000" id="0500082e" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown01="0x0000">
+            <EDID>_CNM_HeatSourceQuest</EDID>
+            <VMAD version="5" format="2">
+                <fragments unknown="0x02" filename="">
+                    <alias unknown="0x00000000" object="0x0500082e" version="5" objectFormat="2">
+                        <script name="_CNM_PlayerHeatSourceScript" status="0">
+                            <property name="Enabled" type="1" status="1">
+                                <object formID="05000806" alias="65535" unused="0x0000"/>
+                            </property>
+                            <property name="PollingInterval" type="1" status="1">
+                                <object formID="05000807" alias="65535" unused="0x0000"/>
+                            </property>
+                            <property name="ColdScript" type="1" status="1">
+                                <object formID="05000828" alias="0" unused="0x0000"/>
+                            </property>
+                            <property name="HeatSourceRadius" type="1" status="1">
+                                <object formID="0500080a" alias="65535" unused="0x0000"/>
+                            </property>
+                            <property name="StandardHeatSources" type="1" status="1">
+                                <object formID="0500082b" alias="65535" unused="0x0000"/>
+                            </property>
+                            <property name="PlayerRef" type="1" status="1">
+                                <object formID="00000014" alias="65535" unused="0x0000"/>
+                            </property>
+                            <property name="HeatSourceRadiusSmall" type="1" status="1">
+                                <object formID="0500083f" alias="65535" unused="0x0000"/>
+                            </property>
+                            <property name="SmallHeatSources" type="1" status="1">
+                                <object formID="05000840" alias="65535" unused="0x0000"/>
+                            </property>
+                        </script>
+                    </alias>
+                </fragments>
+            </VMAD>
+            <DNAM>
+                <struct flags="0x0111" priority="0" unknown0="0xff" unknown1="0x00000000" type="0"/>
+            </DNAM>
+            <NEXT/>
+            <ANAM>1</ANAM>
+            <ALST>0</ALST>
+            <ALID>Player</ALID>
+            <FNAM>0</FNAM>
+            <ALFR>00000014</ALFR>
+            <VTCK>00000000</VTCK>
+            <ALED/>
+        </QUST>
+        <QUST flags="0x00000000" id="0500082f" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown01="0x0000">
+            <EDID>_CNM_HungerQuest</EDID>
+            <DNAM>
+                <struct flags="0x0111" priority="0" unknown0="0xff" unknown1="0x00000000" type="0"/>
+            </DNAM>
+            <NEXT/>
+            <ANAM>1</ANAM>
+            <ALST>0</ALST>
+            <ALID>Player</ALID>
+            <FNAM>0</FNAM>
+            <ALFR>00000014</ALFR>
+            <VTCK>00000000</VTCK>
+            <ALED/>
+        </QUST>
+        <QUST flags="0x00000000" id="05000830" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown01="0x0000">
+            <EDID>_CNM_SleepQuest</EDID>
+            <DNAM>
+                <struct flags="0x0111" priority="0" unknown0="0xff" unknown1="0x00000000" type="0"/>
+            </DNAM>
+            <NEXT/>
+            <ANAM>1</ANAM>
+            <ALST>0</ALST>
+            <ALID>Player</ALID>
+            <FNAM>0</FNAM>
+            <ALFR>00000014</ALFR>
+            <VTCK>00000000</VTCK>
+            <ALED/>
+        </QUST>
+    </GRUP>
+    <GRUP label="IMAD" groupType="0" day="98" month="40" lastUserID="0" currentUserID="0" unknown01="0x00000000">
+        <IMAD flags="0x00000000" id="05000805" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown01="0x0000">
+            <EDID>CNMFreezingImod</EDID>
+            <DNAM flags="0x00000000" duration="1" unknown="0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000000,0x3f000000,0x3f000000,0x00000002,0x00000002,0x00000002,0x00000100,0x00000002,0x00000002,0x00000002,0x00000002"/>
+            <BNAM>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </BNAM>
+            <VNAM>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </VNAM>
+            <TNAM>
+                <tint timestamp="0" red="0.666666687" green="0.858823538" blue="1" alpha="0"/>
+                <tint timestamp="1" red="1" green="1" blue="1" alpha="0"/>
+            </TNAM>
+            <NAM3>
+                <tint timestamp="0" red="0.266666681" green="0.309803933" blue="0.501960814" alpha="0.0784313753"/>
+                <tint timestamp="1" red="1" green="1" blue="1" alpha="0"/>
+            </NAM3>
+            <RNAM>
+                <imad timestamp="0" value="1.5"/>
+                <imad timestamp="1" value="0"/>
+            </RNAM>
+            <SNAM>
+                <imad timestamp="0" value="0.00200000009"/>
+                <imad timestamp="1" value="0"/>
+            </SNAM>
+            <UNAM>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </UNAM>
+            <NAM1>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </NAM1>
+            <NAM2>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </NAM2>
+            <WNAM>
+                <imad timestamp="0" value="1"/>
+                <imad timestamp="1" value="0"/>
+            </WNAM>
+            <XNAM>
+                <imad timestamp="0" value="128"/>
+                <imad timestamp="1" value="0"/>
+            </XNAM>
+            <YNAM>
+                <imad timestamp="0" value="3500"/>
+                <imad timestamp="1" value="0"/>
+            </YNAM>
+            <NAM4>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </NAM4>
+            <x00IAD>
+                <imad timestamp="0" value="1"/>
+                <imad timestamp="1" value="1"/>
+            </x00IAD>
+            <x40IAD>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </x40IAD>
+            <x01IAD>
+                <imad timestamp="0" value="1"/>
+                <imad timestamp="1" value="1"/>
+            </x01IAD>
+            <AIAD>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </AIAD>
+            <x02IAD>
+                <imad timestamp="0" value="0.800000012"/>
+                <imad timestamp="1" value="1"/>
+            </x02IAD>
+            <BIAD>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </BIAD>
+            <x03IAD>
+                <imad timestamp="0" value="0.5"/>
+                <imad timestamp="1" value="1"/>
+            </x03IAD>
+            <CIAD>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </CIAD>
+            <x04IAD>
+                <imad timestamp="0" value="1"/>
+                <imad timestamp="1" value="1"/>
+            </x04IAD>
+            <DIAD>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </DIAD>
+            <x05IAD>
+                <imad timestamp="0" value="0.970000029"/>
+                <imad timestamp="1" value="1"/>
+            </x05IAD>
+            <EIAD>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </EIAD>
+            <x06IAD>
+                <imad timestamp="0" value="1.10000002"/>
+                <imad timestamp="1" value="1"/>
+            </x06IAD>
+            <FIAD>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </FIAD>
+            <x07IAD>
+                <imad timestamp="0" value="1"/>
+                <imad timestamp="1" value="1"/>
+            </x07IAD>
+            <GIAD>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </GIAD>
+            <x08IAD>
+                <imad timestamp="0" value="1"/>
+                <imad timestamp="1" value="1"/>
+            </x08IAD>
+            <HIAD>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </HIAD>
+            <x09IAD>
+                <imad timestamp="0" value="1"/>
+                <imad timestamp="1" value="1"/>
+            </x09IAD>
+            <IIAD>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </IIAD>
+            <x0aIAD>
+                <imad timestamp="0" value="1"/>
+                <imad timestamp="1" value="1"/>
+            </x0aIAD>
+            <JIAD>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </JIAD>
+            <x0bIAD>
+                <imad timestamp="0" value="1"/>
+                <imad timestamp="1" value="1"/>
+            </x0bIAD>
+            <KIAD>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </KIAD>
+            <x0cIAD>
+                <imad timestamp="0" value="1"/>
+                <imad timestamp="1" value="1"/>
+            </x0cIAD>
+            <LIAD>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </LIAD>
+            <x0dIAD>
+                <imad timestamp="0" value="1"/>
+                <imad timestamp="1" value="1"/>
+            </x0dIAD>
+            <MIAD>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </MIAD>
+            <x0eIAD>
+                <imad timestamp="0" value="1"/>
+                <imad timestamp="1" value="1"/>
+            </x0eIAD>
+            <NIAD>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </NIAD>
+            <x0fIAD>
+                <imad timestamp="0" value="1"/>
+                <imad timestamp="1" value="1"/>
+            </x0fIAD>
+            <OIAD>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </OIAD>
+            <x10IAD>
+                <imad timestamp="0" value="1"/>
+                <imad timestamp="1" value="1"/>
+            </x10IAD>
+            <PIAD>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </PIAD>
+            <x11IAD>
+                <imad timestamp="0" value="1"/>
+                <imad timestamp="1" value="1"/>
+            </x11IAD>
+            <QIAD>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </QIAD>
+            <x12IAD>
+                <imad timestamp="0" value="1.03999996"/>
+                <imad timestamp="1" value="1"/>
+            </x12IAD>
+            <RIAD>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </RIAD>
+            <x13IAD>
+                <imad timestamp="0" value="1"/>
+                <imad timestamp="1" value="1"/>
+            </x13IAD>
+            <SIAD>
+                <imad timestamp="0" value="0.200000003"/>
+                <imad timestamp="1" value="0"/>
+            </SIAD>
+            <x14IAD>
+                <imad timestamp="0" value="1"/>
+                <imad timestamp="1" value="1"/>
+            </x14IAD>
+            <TIAD>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </TIAD>
+        </IMAD>
+        <IMAD flags="0x00000000" id="0500080b" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown01="0x0000">
+            <EDID>CNMColdImod</EDID>
+            <DNAM flags="0x00000000" duration="1" unknown="0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000000,0x3f000000,0x3f000000,0x00000002,0x00000002,0x00000002,0x00000100,0x00000002,0x00000002,0x00000002,0x00000002"/>
+            <BNAM>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </BNAM>
+            <VNAM>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </VNAM>
+            <TNAM>
+                <tint timestamp="0" red="0.666666687" green="0.858823538" blue="1" alpha="0"/>
+                <tint timestamp="1" red="1" green="1" blue="1" alpha="0"/>
+            </TNAM>
+            <NAM3>
+                <tint timestamp="0" red="0.266666681" green="0.309803933" blue="0.501960814" alpha="0.0666666701"/>
+                <tint timestamp="1" red="1" green="1" blue="1" alpha="0"/>
+            </NAM3>
+            <RNAM>
+                <imad timestamp="0" value="1.25"/>
+                <imad timestamp="1" value="0"/>
+            </RNAM>
+            <SNAM>
+                <imad timestamp="0" value="0.00150000001"/>
+                <imad timestamp="1" value="0"/>
+            </SNAM>
+            <UNAM>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </UNAM>
+            <NAM1>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </NAM1>
+            <NAM2>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </NAM2>
+            <WNAM>
+                <imad timestamp="0" value="1"/>
+                <imad timestamp="1" value="0"/>
+            </WNAM>
+            <XNAM>
+                <imad timestamp="0" value="128"/>
+                <imad timestamp="1" value="0"/>
+            </XNAM>
+            <YNAM>
+                <imad timestamp="0" value="3500"/>
+                <imad timestamp="1" value="0"/>
+            </YNAM>
+            <NAM4>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </NAM4>
+            <x00IAD>
+                <imad timestamp="0" value="1"/>
+                <imad timestamp="1" value="1"/>
+            </x00IAD>
+            <x40IAD>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </x40IAD>
+            <x01IAD>
+                <imad timestamp="0" value="1"/>
+                <imad timestamp="1" value="1"/>
+            </x01IAD>
+            <AIAD>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </AIAD>
+            <x02IAD>
+                <imad timestamp="0" value="0.800000012"/>
+                <imad timestamp="1" value="1"/>
+            </x02IAD>
+            <BIAD>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </BIAD>
+            <x03IAD>
+                <imad timestamp="0" value="0.5"/>
+                <imad timestamp="1" value="1"/>
+            </x03IAD>
+            <CIAD>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </CIAD>
+            <x04IAD>
+                <imad timestamp="0" value="1"/>
+                <imad timestamp="1" value="1"/>
+            </x04IAD>
+            <DIAD>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </DIAD>
+            <x05IAD>
+                <imad timestamp="0" value="0.980000019"/>
+                <imad timestamp="1" value="1"/>
+            </x05IAD>
+            <EIAD>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </EIAD>
+            <x06IAD>
+                <imad timestamp="0" value="1.10000002"/>
+                <imad timestamp="1" value="1"/>
+            </x06IAD>
+            <FIAD>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </FIAD>
+            <x07IAD>
+                <imad timestamp="0" value="1"/>
+                <imad timestamp="1" value="1"/>
+            </x07IAD>
+            <GIAD>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </GIAD>
+            <x08IAD>
+                <imad timestamp="0" value="1"/>
+                <imad timestamp="1" value="1"/>
+            </x08IAD>
+            <HIAD>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </HIAD>
+            <x09IAD>
+                <imad timestamp="0" value="1"/>
+                <imad timestamp="1" value="1"/>
+            </x09IAD>
+            <IIAD>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </IIAD>
+            <x0aIAD>
+                <imad timestamp="0" value="1"/>
+                <imad timestamp="1" value="1"/>
+            </x0aIAD>
+            <JIAD>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </JIAD>
+            <x0bIAD>
+                <imad timestamp="0" value="1"/>
+                <imad timestamp="1" value="1"/>
+            </x0bIAD>
+            <KIAD>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </KIAD>
+            <x0cIAD>
+                <imad timestamp="0" value="1"/>
+                <imad timestamp="1" value="1"/>
+            </x0cIAD>
+            <LIAD>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </LIAD>
+            <x0dIAD>
+                <imad timestamp="0" value="1"/>
+                <imad timestamp="1" value="1"/>
+            </x0dIAD>
+            <MIAD>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </MIAD>
+            <x0eIAD>
+                <imad timestamp="0" value="1"/>
+                <imad timestamp="1" value="1"/>
+            </x0eIAD>
+            <NIAD>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </NIAD>
+            <x0fIAD>
+                <imad timestamp="0" value="1"/>
+                <imad timestamp="1" value="1"/>
+            </x0fIAD>
+            <OIAD>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </OIAD>
+            <x10IAD>
+                <imad timestamp="0" value="1"/>
+                <imad timestamp="1" value="1"/>
+            </x10IAD>
+            <PIAD>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </PIAD>
+            <x11IAD>
+                <imad timestamp="0" value="1"/>
+                <imad timestamp="1" value="1"/>
+            </x11IAD>
+            <QIAD>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </QIAD>
+            <x12IAD>
+                <imad timestamp="0" value="1.01999998"/>
+                <imad timestamp="1" value="1"/>
+            </x12IAD>
+            <RIAD>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </RIAD>
+            <x13IAD>
+                <imad timestamp="0" value="1"/>
+                <imad timestamp="1" value="1"/>
+            </x13IAD>
+            <SIAD>
+                <imad timestamp="0" value="0.200000003"/>
+                <imad timestamp="1" value="0"/>
+            </SIAD>
+            <x14IAD>
+                <imad timestamp="0" value="1"/>
+                <imad timestamp="1" value="1"/>
+            </x14IAD>
+            <TIAD>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </TIAD>
+        </IMAD>
+        <IMAD flags="0x00000000" id="0500080c" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown01="0x0000">
+            <EDID>CNMCoolImod</EDID>
+            <DNAM flags="0x00000000" duration="1" unknown="0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000000,0x3f000000,0x3f000000,0x00000002,0x00000002,0x00000002,0x00000100,0x00000002,0x00000002,0x00000002,0x00000002"/>
+            <BNAM>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </BNAM>
+            <VNAM>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </VNAM>
+            <TNAM>
+                <tint timestamp="0" red="0.666666687" green="0.858823538" blue="1" alpha="0"/>
+                <tint timestamp="1" red="1" green="1" blue="1" alpha="0"/>
+            </TNAM>
+            <NAM3>
+                <tint timestamp="0" red="0.266666681" green="0.309803933" blue="0.501960814" alpha="0.0588235296"/>
+                <tint timestamp="1" red="1" green="1" blue="1" alpha="0"/>
+            </NAM3>
+            <RNAM>
+                <imad timestamp="0" value="1"/>
+                <imad timestamp="1" value="0"/>
+            </RNAM>
+            <SNAM>
+                <imad timestamp="0" value="0.00100000005"/>
+                <imad timestamp="1" value="0"/>
+            </SNAM>
+            <UNAM>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </UNAM>
+            <NAM1>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </NAM1>
+            <NAM2>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </NAM2>
+            <WNAM>
+                <imad timestamp="0" value="1"/>
+                <imad timestamp="1" value="0"/>
+            </WNAM>
+            <XNAM>
+                <imad timestamp="0" value="128"/>
+                <imad timestamp="1" value="0"/>
+            </XNAM>
+            <YNAM>
+                <imad timestamp="0" value="3500"/>
+                <imad timestamp="1" value="0"/>
+            </YNAM>
+            <NAM4>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </NAM4>
+            <x00IAD>
+                <imad timestamp="0" value="1"/>
+                <imad timestamp="1" value="1"/>
+            </x00IAD>
+            <x40IAD>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </x40IAD>
+            <x01IAD>
+                <imad timestamp="0" value="1"/>
+                <imad timestamp="1" value="1"/>
+            </x01IAD>
+            <AIAD>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </AIAD>
+            <x02IAD>
+                <imad timestamp="0" value="0.800000012"/>
+                <imad timestamp="1" value="1"/>
+            </x02IAD>
+            <BIAD>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </BIAD>
+            <x03IAD>
+                <imad timestamp="0" value="0.5"/>
+                <imad timestamp="1" value="1"/>
+            </x03IAD>
+            <CIAD>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </CIAD>
+            <x04IAD>
+                <imad timestamp="0" value="1"/>
+                <imad timestamp="1" value="1"/>
+            </x04IAD>
+            <DIAD>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </DIAD>
+            <x05IAD>
+                <imad timestamp="0" value="1"/>
+                <imad timestamp="1" value="1"/>
+            </x05IAD>
+            <EIAD>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </EIAD>
+            <x06IAD>
+                <imad timestamp="0" value="1.04999995"/>
+                <imad timestamp="1" value="1"/>
+            </x06IAD>
+            <FIAD>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </FIAD>
+            <x07IAD>
+                <imad timestamp="0" value="1"/>
+                <imad timestamp="1" value="1"/>
+            </x07IAD>
+            <GIAD>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </GIAD>
+            <x08IAD>
+                <imad timestamp="0" value="1"/>
+                <imad timestamp="1" value="1"/>
+            </x08IAD>
+            <HIAD>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </HIAD>
+            <x09IAD>
+                <imad timestamp="0" value="1"/>
+                <imad timestamp="1" value="1"/>
+            </x09IAD>
+            <IIAD>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </IIAD>
+            <x0aIAD>
+                <imad timestamp="0" value="1"/>
+                <imad timestamp="1" value="1"/>
+            </x0aIAD>
+            <JIAD>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </JIAD>
+            <x0bIAD>
+                <imad timestamp="0" value="1"/>
+                <imad timestamp="1" value="1"/>
+            </x0bIAD>
+            <KIAD>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </KIAD>
+            <x0cIAD>
+                <imad timestamp="0" value="1"/>
+                <imad timestamp="1" value="1"/>
+            </x0cIAD>
+            <LIAD>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </LIAD>
+            <x0dIAD>
+                <imad timestamp="0" value="1"/>
+                <imad timestamp="1" value="1"/>
+            </x0dIAD>
+            <MIAD>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </MIAD>
+            <x0eIAD>
+                <imad timestamp="0" value="1"/>
+                <imad timestamp="1" value="1"/>
+            </x0eIAD>
+            <NIAD>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </NIAD>
+            <x0fIAD>
+                <imad timestamp="0" value="1"/>
+                <imad timestamp="1" value="1"/>
+            </x0fIAD>
+            <OIAD>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </OIAD>
+            <x10IAD>
+                <imad timestamp="0" value="1"/>
+                <imad timestamp="1" value="1"/>
+            </x10IAD>
+            <PIAD>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </PIAD>
+            <x11IAD>
+                <imad timestamp="0" value="1"/>
+                <imad timestamp="1" value="1"/>
+            </x11IAD>
+            <QIAD>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </QIAD>
+            <x12IAD>
+                <imad timestamp="0" value="1"/>
+                <imad timestamp="1" value="1"/>
+            </x12IAD>
+            <RIAD>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </RIAD>
+            <x13IAD>
+                <imad timestamp="0" value="1"/>
+                <imad timestamp="1" value="1"/>
+            </x13IAD>
+            <SIAD>
+                <imad timestamp="0" value="0.100000001"/>
+                <imad timestamp="1" value="0"/>
+            </SIAD>
+            <x14IAD>
+                <imad timestamp="0" value="1"/>
+                <imad timestamp="1" value="1"/>
+            </x14IAD>
+            <TIAD>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </TIAD>
+        </IMAD>
+        <IMAD flags="0x00000000" id="0500082a" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown01="0x0000">
+            <EDID>CNMWarmImod</EDID>
+            <DNAM flags="0x00000000" duration="1" unknown="0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000002,0x00000000,0x3f000000,0x3f000000,0x00000002,0x00000002,0x00000002,0x00000000,0x00000002,0x00000002,0x00000002,0x00000002"/>
+            <BNAM>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </BNAM>
+            <VNAM>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </VNAM>
+            <TNAM>
+                <tint timestamp="0" red="1" green="1" blue="1" alpha="0"/>
+                <tint timestamp="1" red="1" green="1" blue="1" alpha="0"/>
+            </TNAM>
+            <NAM3>
+                <tint timestamp="0" red="1" green="1" blue="1" alpha="0"/>
+                <tint timestamp="1" red="1" green="1" blue="1" alpha="0"/>
+            </NAM3>
+            <RNAM>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </RNAM>
+            <SNAM>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </SNAM>
+            <UNAM>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </UNAM>
+            <NAM1>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </NAM1>
+            <NAM2>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </NAM2>
+            <WNAM>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </WNAM>
+            <XNAM>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </XNAM>
+            <YNAM>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </YNAM>
+            <NAM4>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </NAM4>
+            <x00IAD>
+                <imad timestamp="0" value="1"/>
+                <imad timestamp="1" value="1"/>
+            </x00IAD>
+            <x40IAD>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </x40IAD>
+            <x01IAD>
+                <imad timestamp="0" value="1"/>
+                <imad timestamp="1" value="1"/>
+            </x01IAD>
+            <AIAD>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </AIAD>
+            <x02IAD>
+                <imad timestamp="0" value="1"/>
+                <imad timestamp="1" value="1"/>
+            </x02IAD>
+            <BIAD>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </BIAD>
+            <x03IAD>
+                <imad timestamp="0" value="1"/>
+                <imad timestamp="1" value="1"/>
+            </x03IAD>
+            <CIAD>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </CIAD>
+            <x04IAD>
+                <imad timestamp="0" value="1"/>
+                <imad timestamp="1" value="1"/>
+            </x04IAD>
+            <DIAD>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </DIAD>
+            <x05IAD>
+                <imad timestamp="0" value="1"/>
+                <imad timestamp="1" value="1"/>
+            </x05IAD>
+            <EIAD>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </EIAD>
+            <x06IAD>
+                <imad timestamp="0" value="1"/>
+                <imad timestamp="1" value="1"/>
+            </x06IAD>
+            <FIAD>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </FIAD>
+            <x07IAD>
+                <imad timestamp="0" value="1"/>
+                <imad timestamp="1" value="1"/>
+            </x07IAD>
+            <GIAD>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </GIAD>
+            <x08IAD>
+                <imad timestamp="0" value="1"/>
+                <imad timestamp="1" value="1"/>
+            </x08IAD>
+            <HIAD>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </HIAD>
+            <x09IAD>
+                <imad timestamp="0" value="1"/>
+                <imad timestamp="1" value="1"/>
+            </x09IAD>
+            <IIAD>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </IIAD>
+            <x0aIAD>
+                <imad timestamp="0" value="1"/>
+                <imad timestamp="1" value="1"/>
+            </x0aIAD>
+            <JIAD>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </JIAD>
+            <x0bIAD>
+                <imad timestamp="0" value="1"/>
+                <imad timestamp="1" value="1"/>
+            </x0bIAD>
+            <KIAD>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </KIAD>
+            <x0cIAD>
+                <imad timestamp="0" value="1"/>
+                <imad timestamp="1" value="1"/>
+            </x0cIAD>
+            <LIAD>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </LIAD>
+            <x0dIAD>
+                <imad timestamp="0" value="1"/>
+                <imad timestamp="1" value="1"/>
+            </x0dIAD>
+            <MIAD>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </MIAD>
+            <x0eIAD>
+                <imad timestamp="0" value="1"/>
+                <imad timestamp="1" value="1"/>
+            </x0eIAD>
+            <NIAD>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </NIAD>
+            <x0fIAD>
+                <imad timestamp="0" value="1"/>
+                <imad timestamp="1" value="1"/>
+            </x0fIAD>
+            <OIAD>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </OIAD>
+            <x10IAD>
+                <imad timestamp="0" value="1"/>
+                <imad timestamp="1" value="1"/>
+            </x10IAD>
+            <PIAD>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </PIAD>
+            <x11IAD>
+                <imad timestamp="0" value="1"/>
+                <imad timestamp="1" value="1"/>
+            </x11IAD>
+            <QIAD>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </QIAD>
+            <x12IAD>
+                <imad timestamp="0" value="1"/>
+                <imad timestamp="1" value="1"/>
+            </x12IAD>
+            <RIAD>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </RIAD>
+            <x13IAD>
+                <imad timestamp="0" value="1"/>
+                <imad timestamp="1" value="1"/>
+            </x13IAD>
+            <SIAD>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </SIAD>
+            <x14IAD>
+                <imad timestamp="0" value="1"/>
+                <imad timestamp="1" value="1"/>
+            </x14IAD>
+            <TIAD>
+                <imad timestamp="0" value="0"/>
+                <imad timestamp="1" value="0"/>
+            </TIAD>
+        </IMAD>
+    </GRUP>
+    <GRUP label="FLST" groupType="0" day="98" month="40" lastUserID="0" currentUserID="0" unknown01="0x00000000">
+        <FLST flags="0x00000000" id="0500080d" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown01="0x0000">
+            <EDID>_CNM_ColdLocations</EDID>
+            <LNAM>00018eea</LNAM>
+            <LNAM>000fda46</LNAM>
+            <LNAM>000bc0a3</LNAM>
+            <LNAM>04014294</LNAM>
+            <LNAM>04014298</LNAM>
+            <LNAM>04032892</LNAM>
+            <LNAM>040142a6</LNAM>
+            <LNAM>040142c4</LNAM>
+            <LNAM>020162af</LNAM>
+            <LNAM>00019172</LNAM>
+            <LNAM>00019186</LNAM>
+            <LNAM>0001918c</LNAM>
+            <LNAM>0001918f</LNAM>
+            <LNAM>00019198</LNAM>
+            <LNAM>0002d51c</LNAM>
+            <LNAM>000192a8</LNAM>
+            <LNAM>0001914c</LNAM>
+            <LNAM>000192b5</LNAM>
+            <LNAM>000192b6</LNAM>
+            <LNAM>000192ca</LNAM>
+        </FLST>
+        <FLST flags="0x00000000" id="05000829" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown01="0x0000">
+            <EDID>_CNM_ColdCells</EDID>
+            <LNAM>0001527e</LNAM>
+            <LNAM>000152c3</LNAM>
+        </FLST>
+        <FLST flags="0x00000000" id="0500082b" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown01="0x0000">
+            <EDID>_CNM_StandardHeatSources</EDID>
+            <LNAM>00035f49</LNAM>
+            <LNAM>00035f47</LNAM>
+            <LNAM>040289e8</LNAM>
+            <LNAM>000a9230</LNAM>
+            <LNAM>04018619</LNAM>
+            <LNAM>00090ca4</LNAM>
+            <LNAM>04018616</LNAM>
+            <LNAM>0010d820</LNAM>
+            <LNAM>000c2bf1</LNAM>
+            <LNAM>000db682</LNAM>
+            <LNAM>0402c0b0</LNAM>
+            <LNAM>000c6918</LNAM>
+            <LNAM>000fb9b0</LNAM>
+            <LNAM>000cbb23</LNAM>
+            <LNAM>000b6c08</LNAM>
+            <LNAM>000951d8</LNAM>
+            <LNAM>000e7c9a</LNAM>
+            <LNAM>000cbb2f</LNAM>
+            <LNAM>00101a51</LNAM>
+            <LNAM>00051577</LNAM>
+            <LNAM>000f597f</LNAM>
+            <LNAM>000f6304</LNAM>
+            <LNAM>0010acc0</LNAM>
+            <LNAM>0004c5ce</LNAM>
+            <LNAM>0004c5cf</LNAM>
+            <LNAM>00035f4a</LNAM>
+            <LNAM>000f2ac3</LNAM>
+            <LNAM>000d61b6</LNAM>
+            <LNAM>000d61be</LNAM>
+            <LNAM>000ef77f</LNAM>
+            <LNAM>000f2ac6</LNAM>
+            <LNAM>00033da4</LNAM>
+            <LNAM>00106112</LNAM>
+            <LNAM>001092e2</LNAM>
+            <LNAM>0004318b</LNAM>
+            <LNAM>000fff43</LNAM>
+            <LNAM>000d5e82</LNAM>
+            <LNAM>000cae0b</LNAM>
+            <LNAM>000bbcf1</LNAM>
+            <LNAM>000bf9e1</LNAM>
+            <LNAM>00068adb</LNAM>
+            <LNAM>0009c6ce</LNAM>
+            <LNAM>0403cf6e</LNAM>
+            <LNAM>0402b074</LNAM>
+            <LNAM>000af8ba</LNAM>
+            <LNAM>000b15ee</LNAM>
+            <LNAM>000622f0</LNAM>
+        </FLST>
+        <FLST flags="0x00000000" id="0500083a" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown01="0x0000">
+            <EDID>_CNM_BeastRaces</EDID>
+            <LNAM>0200283a</LNAM>
+            <LNAM>000cdd84</LNAM>
+            <LNAM>0401e17b</LNAM>
+        </FLST>
+        <FLST flags="0x00000000" id="05000840" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown01="0x0000">
+            <EDID>_CNM_SmallHeatSources</EDID>
+            <LNAM>00013b40</LNAM>
+            <LNAM>00013b42</LNAM>
+            <LNAM>001094ab</LNAM>
+            <LNAM>000cd824</LNAM>
+            <LNAM>000cd823</LNAM>
+            <LNAM>000aa71c</LNAM>
+            <LNAM>00033da9</LNAM>
+            <LNAM>00108d70</LNAM>
+            <LNAM>0401a56a</LNAM>
+            <LNAM>0401a56b</LNAM>
+            <LNAM>00104110</LNAM>
+            <LNAM>001010b3</LNAM>
+            <LNAM>00108230</LNAM>
+        </FLST>
+        <FLST flags="0x00000000" id="05000841" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown01="0x0000">
+            <EDID>_CNM_ColdStatics</EDID>
+            <LNAM>020198aa</LNAM>
+            <LNAM>020198ac</LNAM>
+            <LNAM>0200c116</LNAM>
+            <LNAM>0200c117</LNAM>
+            <LNAM>0200c118</LNAM>
+            <LNAM>0200c119</LNAM>
+            <LNAM>0200c11a</LNAM>
+            <LNAM>0200c11b</LNAM>
+            <LNAM>0200c120</LNAM>
+            <LNAM>0200c11c</LNAM>
+            <LNAM>0200c122</LNAM>
+            <LNAM>0200c121</LNAM>
+            <LNAM>0200c11e</LNAM>
+            <LNAM>0200c11d</LNAM>
+            <LNAM>0200c11f</LNAM>
+            <LNAM>02009676</LNAM>
+            <LNAM>02012e97</LNAM>
+            <LNAM>0200967c</LNAM>
+            <LNAM>02011602</LNAM>
+            <LNAM>0200b5bf</LNAM>
+            <LNAM>0200ce34</LNAM>
+            <LNAM>0200967e</LNAM>
+            <LNAM>0201a035</LNAM>
+            <LNAM>02011600</LNAM>
+            <LNAM>02013818</LNAM>
+            <LNAM>020137ec</LNAM>
+            <LNAM>020137ed</LNAM>
+            <LNAM>020137ee</LNAM>
+            <LNAM>02013817</LNAM>
+            <LNAM>0201381b</LNAM>
+            <LNAM>020137e7</LNAM>
+            <LNAM>02013819</LNAM>
+            <LNAM>04025e75</LNAM>
+            <LNAM>04025e5e</LNAM>
+            <LNAM>0403703c</LNAM>
+            <LNAM>04039d5c</LNAM>
+            <LNAM>0401aae7</LNAM>
+            <LNAM>0401ae16</LNAM>
+            <LNAM>0401feda</LNAM>
+            <LNAM>040248ac</LNAM>
+            <LNAM>040248aa</LNAM>
+            <LNAM>040248ab</LNAM>
+            <LNAM>04020022</LNAM>
+            <LNAM>04020020</LNAM>
+            <LNAM>04020027</LNAM>
+            <LNAM>0401b92d</LNAM>
+            <LNAM>0401d9e7</LNAM>
+            <LNAM>0401b92e</LNAM>
+            <LNAM>0401da5b</LNAM>
+            <LNAM>0401b92f</LNAM>
+            <LNAM>0401da4b</LNAM>
+            <LNAM>0401b930</LNAM>
+            <LNAM>0401da4a</LNAM>
+            <LNAM>0401d9dc</LNAM>
+            <LNAM>0401d9dd</LNAM>
+            <LNAM>0403c820</LNAM>
+            <LNAM>0401d9d8</LNAM>
+            <LNAM>0401d9d6</LNAM>
+            <LNAM>0401d9d7</LNAM>
+            <LNAM>0401d9d5</LNAM>
+            <LNAM>0401d9d9</LNAM>
+            <LNAM>0401d9da</LNAM>
+            <LNAM>0401d9db</LNAM>
+            <LNAM>00042072</LNAM>
+            <LNAM>00042073</LNAM>
+            <LNAM>00042074</LNAM>
+            <LNAM>00042075</LNAM>
+            <LNAM>00042076</LNAM>
+            <LNAM>00042077</LNAM>
+            <LNAM>00042078</LNAM>
+            <LNAM>00042079</LNAM>
+            <LNAM>0004207a</LNAM>
+            <LNAM>0004207b</LNAM>
+            <LNAM>0004207c</LNAM>
+            <LNAM>0004207d</LNAM>
+            <LNAM>0004207e</LNAM>
+            <LNAM>0004207f</LNAM>
+            <LNAM>00042080</LNAM>
+            <LNAM>00042081</LNAM>
+            <LNAM>00042082</LNAM>
+            <LNAM>00042083</LNAM>
+            <LNAM>00042084</LNAM>
+            <LNAM>00042085</LNAM>
+            <LNAM>00042086</LNAM>
+            <LNAM>00042087</LNAM>
+            <LNAM>00042088</LNAM>
+            <LNAM>0006cd75</LNAM>
+            <LNAM>0007a868</LNAM>
+            <LNAM>0007c3c3</LNAM>
+            <LNAM>0006cd74</LNAM>
+            <LNAM>0004bb67</LNAM>
+            <LNAM>0007a86a</LNAM>
+            <LNAM>0007c3a2</LNAM>
+            <LNAM>0007a859</LNAM>
+            <LNAM>0007a850</LNAM>
+            <LNAM>000946b6</LNAM>
+            <LNAM>0007a843</LNAM>
+            <LNAM>0007a86c</LNAM>
+            <LNAM>000a2a02</LNAM>
+            <LNAM>0007a85b</LNAM>
+            <LNAM>0007a87a</LNAM>
+            <LNAM>0007c3b1</LNAM>
+            <LNAM>0007a84e</LNAM>
+            <LNAM>0007a83f</LNAM>
+            <LNAM>0007a862</LNAM>
+            <LNAM>0008efbe</LNAM>
+            <LNAM>0008f0b4</LNAM>
+            <LNAM>0008efb8</LNAM>
+            <LNAM>0008f0b2</LNAM>
+            <LNAM>0008f0b5</LNAM>
+            <LNAM>0008efc1</LNAM>
+            <LNAM>0007a870</LNAM>
+            <LNAM>0006cda3</LNAM>
+            <LNAM>0008f0b3</LNAM>
+            <LNAM>0008efae</LNAM>
+            <LNAM>0006cdc7</LNAM>
+            <LNAM>0006cda4</LNAM>
+            <LNAM>0007a86e</LNAM>
+            <LNAM>0007a869</LNAM>
+            <LNAM>0007a86b</LNAM>
+            <LNAM>02002f75</LNAM>
+            <LNAM>02002f79</LNAM>
+            <LNAM>02002f77</LNAM>
+            <LNAM>02002f74</LNAM>
+            <LNAM>02002f76</LNAM>
+            <LNAM>02002f78</LNAM>
+            <LNAM>0007a86f</LNAM>
+            <LNAM>0006cdbf</LNAM>
+            <LNAM>0006cda5</LNAM>
+            <LNAM>0006f0c6</LNAM>
+            <LNAM>0006f0bb</LNAM>
+            <LNAM>0007c3a6</LNAM>
+            <LNAM>000a3569</LNAM>
+            <LNAM>0007a855</LNAM>
+            <LNAM>0006f10c</LNAM>
+            <LNAM>000919fb</LNAM>
+            <LNAM>0006f110</LNAM>
+            <LNAM>0007a83b</LNAM>
+            <LNAM>0007a856</LNAM>
+            <LNAM>0007a863</LNAM>
+            <LNAM>000211d0</LNAM>
+            <LNAM>0007c3ae</LNAM>
+            <LNAM>0006f0cf</LNAM>
+            <LNAM>0007c3af</LNAM>
+            <LNAM>0007c3b0</LNAM>
+            <LNAM>0007a867</LNAM>
+            <LNAM>0006f108</LNAM>
+            <LNAM>0006f0ba</LNAM>
+            <LNAM>000211cf</LNAM>
+            <LNAM>0007b939</LNAM>
+            <LNAM>000211d2</LNAM>
+            <LNAM>0007b93a</LNAM>
+            <LNAM>0007c3a5</LNAM>
+            <LNAM>0006f0c7</LNAM>
+            <LNAM>000211d1</LNAM>
+            <LNAM>0007a83d</LNAM>
+            <LNAM>000919fe</LNAM>
+            <LNAM>0007a842</LNAM>
+            <LNAM>0007a853</LNAM>
+            <LNAM>0008f0e8</LNAM>
+            <LNAM>0007a85f</LNAM>
+            <LNAM>0007c3c2</LNAM>
+            <LNAM>0007c3a8</LNAM>
+            <LNAM>0007c3b2</LNAM>
+            <LNAM>0006f0c0</LNAM>
+            <LNAM>0007c3c1</LNAM>
+            <LNAM>0006f119</LNAM>
+            <LNAM>000919fd</LNAM>
+            <LNAM>0006f112</LNAM>
+            <LNAM>0007c3a7</LNAM>
+            <LNAM>000dbff3</LNAM>
+            <LNAM>0007a84b</LNAM>
+            <LNAM>0007a85c</LNAM>
+            <LNAM>0007a85d</LNAM>
+            <LNAM>0007a85e</LNAM>
+            <LNAM>0007a84a</LNAM>
+            <LNAM>0007a844</LNAM>
+            <LNAM>0008f0e9</LNAM>
+            <LNAM>0007a847</LNAM>
+            <LNAM>0002fb08</LNAM>
+            <LNAM>0007a841</LNAM>
+            <LNAM>0007a845</LNAM>
+            <LNAM>0007a846</LNAM>
+            <LNAM>0007a866</LNAM>
+            <LNAM>000727e7</LNAM>
+            <LNAM>0007b94e</LNAM>
+            <LNAM>0007a873</LNAM>
+            <LNAM>0007a871</LNAM>
+            <LNAM>0007a86d</LNAM>
+            <LNAM>0007a864</LNAM>
+            <LNAM>0007a874</LNAM>
+            <LNAM>0007a858</LNAM>
+            <LNAM>0007a872</LNAM>
+            <LNAM>0007a83c</LNAM>
+            <LNAM>0006cdfb</LNAM>
+            <LNAM>0006cdc3</LNAM>
+            <LNAM>0007a85a</LNAM>
+            <LNAM>0006cda6</LNAM>
+            <LNAM>0006cdb5</LNAM>
+            <LNAM>0006cda2</LNAM>
+            <LNAM>0006cda1</LNAM>
+            <LNAM>0006f118</LNAM>
+            <LNAM>0006f0cb</LNAM>
+            <LNAM>0007a857</LNAM>
+            <LNAM>0006f11a</LNAM>
+            <LNAM>0006f0cc</LNAM>
+            <LNAM>0007a854</LNAM>
+            <LNAM>0007a84c</LNAM>
+            <LNAM>0007a852</LNAM>
+            <LNAM>000919fc</LNAM>
+            <LNAM>0007c3b4</LNAM>
+            <LNAM>00081dea</LNAM>
+            <LNAM>00042089</LNAM>
+            <LNAM>0004208a</LNAM>
+            <LNAM>0004208b</LNAM>
+            <LNAM>0004208c</LNAM>
+            <LNAM>0004208d</LNAM>
+            <LNAM>0004208e</LNAM>
+            <LNAM>0004208f</LNAM>
+            <LNAM>00042090</LNAM>
+            <LNAM>00042091</LNAM>
+            <LNAM>00042092</LNAM>
+            <LNAM>00042093</LNAM>
+            <LNAM>00042094</LNAM>
+            <LNAM>00042095</LNAM>
+            <LNAM>00042096</LNAM>
+            <LNAM>0007a848</LNAM>
+            <LNAM>0004bb62</LNAM>
+            <LNAM>0007a879</LNAM>
+            <LNAM>0007a84d</LNAM>
+            <LNAM>0007a84f</LNAM>
+            <LNAM>0007a840</LNAM>
+            <LNAM>0007a83e</LNAM>
+            <LNAM>0007a860</LNAM>
+            <LNAM>0007a851</LNAM>
+            <LNAM>0004bb63</LNAM>
+            <LNAM>000946b2</LNAM>
+            <LNAM>0004bb64</LNAM>
+            <LNAM>000946b4</LNAM>
+            <LNAM>0007a861</LNAM>
+            <LNAM>0007a87c</LNAM>
+            <LNAM>0007a87b</LNAM>
+            <LNAM>0004205a</LNAM>
+            <LNAM>0004205b</LNAM>
+            <LNAM>0004205c</LNAM>
+            <LNAM>0004205d</LNAM>
+            <LNAM>0004205e</LNAM>
+            <LNAM>0004205f</LNAM>
+            <LNAM>00042060</LNAM>
+            <LNAM>00042061</LNAM>
+            <LNAM>00042062</LNAM>
+            <LNAM>00042063</LNAM>
+            <LNAM>00042064</LNAM>
+            <LNAM>00042065</LNAM>
+            <LNAM>00042066</LNAM>
+            <LNAM>00042067</LNAM>
+            <LNAM>00042068</LNAM>
+            <LNAM>00042069</LNAM>
+            <LNAM>0004206a</LNAM>
+            <LNAM>0004206b</LNAM>
+            <LNAM>0004206c</LNAM>
+            <LNAM>0004206d</LNAM>
+            <LNAM>0004206e</LNAM>
+            <LNAM>0004206f</LNAM>
+            <LNAM>00042070</LNAM>
+            <LNAM>00042071</LNAM>
+            <LNAM>0007a838</LNAM>
+            <LNAM>000dbfef</LNAM>
+            <LNAM>0007c3a4</LNAM>
+            <LNAM>0006f13a</LNAM>
+            <LNAM>0006f0b3</LNAM>
+            <LNAM>0007c3a3</LNAM>
+            <LNAM>0006f0b8</LNAM>
+            <LNAM>0007a839</LNAM>
+            <LNAM>0006f0ca</LNAM>
+            <LNAM>0007c3a1</LNAM>
+            <LNAM>0007a83a</LNAM>
+            <LNAM>0006f11c</LNAM>
+            <LNAM>0006f11d</LNAM>
+            <LNAM>0007a849</LNAM>
+            <LNAM>0006f0b9</LNAM>
+            <LNAM>0008a81b</LNAM>
+            <LNAM>0006f0c9</LNAM>
+            <LNAM>000a3560</LNAM>
+            <LNAM>00081de8</LNAM>
+            <LNAM>00081de9</LNAM>
+            <LNAM>0007a865</LNAM>
+            <LNAM>000a29ff</LNAM>
+            <LNAM>0006f0c8</LNAM>
+            <LNAM>0007c3a0</LNAM>
+            <LNAM>0007a875</LNAM>
+            <LNAM>0007a877</LNAM>
+            <LNAM>0006f0be</LNAM>
+            <LNAM>0006f0bc</LNAM>
+            <LNAM>0007c3ad</LNAM>
+            <LNAM>0007a876</LNAM>
+            <LNAM>0007c3a9</LNAM>
+            <LNAM>0007c3b5</LNAM>
+            <LNAM>00081deb</LNAM>
+            <LNAM>0006f0b4</LNAM>
+            <LNAM>0006f0b7</LNAM>
+            <LNAM>0006f0b6</LNAM>
+            <LNAM>0007c3ac</LNAM>
+            <LNAM>0007c3ab</LNAM>
+            <LNAM>0007c3aa</LNAM>
+            <LNAM>0006f0bf</LNAM>
+            <LNAM>0006f0b5</LNAM>
+            <LNAM>0007a878</LNAM>
+            <LNAM>0006f0bd</LNAM>
+            <LNAM>000727e6</LNAM>
+            <LNAM>0006cd85</LNAM>
+            <LNAM>0006f0c5</LNAM>
+            <LNAM>0006f111</LNAM>
+            <LNAM>0006f11b</LNAM>
+            <LNAM>04030d14</LNAM>
+            <LNAM>04030d12</LNAM>
+            <LNAM>000d0bc3</LNAM>
+            <LNAM>00060ee2</LNAM>
+            <LNAM>00060ee4</LNAM>
+            <LNAM>0403b397</LNAM>
+            <LNAM>000468f3</LNAM>
+            <LNAM>000f0f31</LNAM>
+            <LNAM>00060ee5</LNAM>
+            <LNAM>00060ee7</LNAM>
+            <LNAM>00060eee</LNAM>
+            <LNAM>00060eef</LNAM>
+            <LNAM>000468f1</LNAM>
+            <LNAM>04030d13</LNAM>
+            <LNAM>02001ca6</LNAM>
+            <LNAM>020029c0</LNAM>
+            <LNAM>04030e6c</LNAM>
+            <LNAM>000468dc</LNAM>
+            <LNAM>040196fe</LNAM>
+            <LNAM>040196fd</LNAM>
+            <LNAM>000ca46f</LNAM>
+            <LNAM>000d0bc1</LNAM>
+            <LNAM>000d0bbd</LNAM>
+            <LNAM>000d0bbe</LNAM>
+            <LNAM>000d0bbc</LNAM>
+            <LNAM>000d0bb9</LNAM>
+            <LNAM>000d0bb7</LNAM>
+            <LNAM>000d0bb6</LNAM>
+            <LNAM>000d0bb8</LNAM>
+            <LNAM>000d0bb5</LNAM>
+            <LNAM>000d0bc2</LNAM>
+            <LNAM>000d0bbb</LNAM>
+            <LNAM>000638d6</LNAM>
+            <LNAM>000d0bba</LNAM>
+            <LNAM>000f4e73</LNAM>
+            <LNAM>0403d13b</LNAM>
+            <LNAM>0403d137</LNAM>
+            <LNAM>0403d139</LNAM>
+            <LNAM>0403d138</LNAM>
+            <LNAM>0403d136</LNAM>
+            <LNAM>0010aae9</LNAM>
+            <LNAM>000d0bbf</LNAM>
+            <LNAM>02001d84</LNAM>
+            <LNAM>02002a9f</LNAM>
+            <LNAM>02001d87</LNAM>
+            <LNAM>02002aa2</LNAM>
+            <LNAM>02001d86</LNAM>
+            <LNAM>02002aa1</LNAM>
+            <LNAM>02001d85</LNAM>
+            <LNAM>02002aa0</LNAM>
+            <LNAM>000f4e1a</LNAM>
+            <LNAM>00077b81</LNAM>
+            <LNAM>000ca45e</LNAM>
+            <LNAM>000a352d</LNAM>
+            <LNAM>000a3532</LNAM>
+            <LNAM>000773c7</LNAM>
+            <LNAM>000638db</LNAM>
+            <LNAM>000773c5</LNAM>
+            <LNAM>000773c8</LNAM>
+            <LNAM>000ffa7e</LNAM>
+            <LNAM>00077b80</LNAM>
+            <LNAM>000a352c</LNAM>
+            <LNAM>000a3531</LNAM>
+            <LNAM>000773c6</LNAM>
+            <LNAM>000a352b</LNAM>
+            <LNAM>0007435d</LNAM>
+            <LNAM>000638dc</LNAM>
+            <LNAM>000a3534</LNAM>
+            <LNAM>000638dd</LNAM>
+            <LNAM>0007435f</LNAM>
+            <LNAM>000f2f58</LNAM>
+            <LNAM>000638d8</LNAM>
+            <LNAM>000773ca</LNAM>
+            <LNAM>000773cb</LNAM>
+            <LNAM>000a352e</LNAM>
+            <LNAM>000773e1</LNAM>
+            <LNAM>000c8998</LNAM>
+            <LNAM>04030d96</LNAM>
+            <LNAM>04024eef</LNAM>
+            <LNAM>000773c9</LNAM>
+            <LNAM>000c8997</LNAM>
+            <LNAM>000a352f</LNAM>
+            <LNAM>000773dc</LNAM>
+            <LNAM>000773e0</LNAM>
+            <LNAM>000773de</LNAM>
+            <LNAM>000773dd</LNAM>
+            <LNAM>000773db</LNAM>
+            <LNAM>000773d8</LNAM>
+            <LNAM>000a3530</LNAM>
+            <LNAM>000773df</LNAM>
+            <LNAM>000773e2</LNAM>
+            <LNAM>000c18c4</LNAM>
+            <LNAM>000a2d77</LNAM>
+            <LNAM>000a2d71</LNAM>
+            <LNAM>00080157</LNAM>
+            <LNAM>00080158</LNAM>
+            <LNAM>0008014b</LNAM>
+            <LNAM>00080159</LNAM>
+            <LNAM>00074454</LNAM>
+            <LNAM>000ce2ca</LNAM>
+            <LNAM>00080bbc</LNAM>
+            <LNAM>00080bc3</LNAM>
+            <LNAM>00080be3</LNAM>
+            <LNAM>00080bc1</LNAM>
+            <LNAM>00080bfd</LNAM>
+            <LNAM>00080bc2</LNAM>
+            <LNAM>000715f9</LNAM>
+            <LNAM>000ab902</LNAM>
+            <LNAM>000c9b5e</LNAM>
+            <LNAM>000e9ea1</LNAM>
+            <LNAM>0006f75f</LNAM>
+            <LNAM>000c9b55</LNAM>
+            <LNAM>000e9ea6</LNAM>
+            <LNAM>0006f760</LNAM>
+            <LNAM>000c1dc5</LNAM>
+            <LNAM>0006f761</LNAM>
+            <LNAM>000c1dc6</LNAM>
+            <LNAM>0006f762</LNAM>
+            <LNAM>000c1dc7</LNAM>
+            <LNAM>0006f763</LNAM>
+            <LNAM>000c1dc8</LNAM>
+            <LNAM>0006f764</LNAM>
+            <LNAM>000c1dc9</LNAM>
+            <LNAM>0006f765</LNAM>
+            <LNAM>000c1dca</LNAM>
+            <LNAM>0006f766</LNAM>
+            <LNAM>000c1dcb</LNAM>
+            <LNAM>0006f767</LNAM>
+            <LNAM>000c1dcc</LNAM>
+            <LNAM>0006f768</LNAM>
+            <LNAM>000c1dbe</LNAM>
+            <LNAM>0006f769</LNAM>
+            <LNAM>000c1dbf</LNAM>
+            <LNAM>0006f76a</LNAM>
+            <LNAM>000c1dc0</LNAM>
+            <LNAM>0006f76b</LNAM>
+            <LNAM>000c1d94</LNAM>
+            <LNAM>000e9ea3</LNAM>
+            <LNAM>0006f76c</LNAM>
+            <LNAM>0006f76d</LNAM>
+            <LNAM>000c9b56</LNAM>
+            <LNAM>0006f76e</LNAM>
+            <LNAM>000c9b60</LNAM>
+            <LNAM>0006f76f</LNAM>
+            <LNAM>0006f770</LNAM>
+            <LNAM>0006f771</LNAM>
+            <LNAM>0006f72b</LNAM>
+            <LNAM>0006f72c</LNAM>
+            <LNAM>0006f72d</LNAM>
+            <LNAM>0006f72e</LNAM>
+            <LNAM>0006f72f</LNAM>
+            <LNAM>0006f730</LNAM>
+            <LNAM>000c1dc1</LNAM>
+            <LNAM>0006f731</LNAM>
+            <LNAM>000c1dc2</LNAM>
+            <LNAM>0006f732</LNAM>
+            <LNAM>000c1dc3</LNAM>
+            <LNAM>0006f733</LNAM>
+            <LNAM>000c1dc4</LNAM>
+            <LNAM>0006f734</LNAM>
+            <LNAM>000c9b57</LNAM>
+            <LNAM>0006f735</LNAM>
+            <LNAM>000c9b58</LNAM>
+            <LNAM>0006f736</LNAM>
+            <LNAM>000c9b59</LNAM>
+            <LNAM>000e9e9c</LNAM>
+            <LNAM>0006f737</LNAM>
+            <LNAM>000c9b5a</LNAM>
+            <LNAM>0006f738</LNAM>
+            <LNAM>000c9b5b</LNAM>
+            <LNAM>000e9e9d</LNAM>
+            <LNAM>0006f739</LNAM>
+            <LNAM>000c9b5c</LNAM>
+            <LNAM>000e9ea7</LNAM>
+            <LNAM>0006f73a</LNAM>
+            <LNAM>000c1dbd</LNAM>
+            <LNAM>00108a5e</LNAM>
+            <LNAM>000e9e9f</LNAM>
+            <LNAM>0006f73b</LNAM>
+            <LNAM>000cc810</LNAM>
+            <LNAM>0006f73c</LNAM>
+            <LNAM>000e9e96</LNAM>
+            <LNAM>0006f73d</LNAM>
+            <LNAM>000732e9</LNAM>
+            <LNAM>0006f73e</LNAM>
+            <LNAM>000e6472</LNAM>
+            <LNAM>000e9e9a</LNAM>
+            <LNAM>0006f73f</LNAM>
+            <LNAM>000e6475</LNAM>
+            <LNAM>000e9e99</LNAM>
+            <LNAM>0006f740</LNAM>
+            <LNAM>000e6476</LNAM>
+            <LNAM>000e9e9e</LNAM>
+            <LNAM>0006f741</LNAM>
+            <LNAM>000e6477</LNAM>
+            <LNAM>000e9eab</LNAM>
+            <LNAM>0006f742</LNAM>
+            <LNAM>000e6478</LNAM>
+            <LNAM>0006f743</LNAM>
+            <LNAM>000e6479</LNAM>
+            <LNAM>000e9ea8</LNAM>
+            <LNAM>0006f744</LNAM>
+            <LNAM>000eb43b</LNAM>
+            <LNAM>000c9b5d</LNAM>
+            <LNAM>000e9ea9</LNAM>
+            <LNAM>0006f745</LNAM>
+            <LNAM>000eb43c</LNAM>
+            <LNAM>000c1d4a</LNAM>
+            <LNAM>000e9ea4</LNAM>
+            <LNAM>0006f746</LNAM>
+            <LNAM>0006f747</LNAM>
+            <LNAM>000c9b5f</LNAM>
+            <LNAM>0002beb6</LNAM>
+            <LNAM>0006f748</LNAM>
+            <LNAM>000c1dba</LNAM>
+            <LNAM>0006f749</LNAM>
+            <LNAM>000e6473</LNAM>
+            <LNAM>000e9e98</LNAM>
+            <LNAM>0006f74a</LNAM>
+            <LNAM>000c1d50</LNAM>
+            <LNAM>0010686b</LNAM>
+            <LNAM>0006f74b</LNAM>
+            <LNAM>0006f74c</LNAM>
+            <LNAM>0006f74d</LNAM>
+            <LNAM>000c1dbc</LNAM>
+            <LNAM>0006f74e</LNAM>
+            <LNAM>0006f74f</LNAM>
+            <LNAM>0006f750</LNAM>
+            <LNAM>000c1dbb</LNAM>
+            <LNAM>000c2cc6</LNAM>
+            <LNAM>000c2cc7</LNAM>
+            <LNAM>000c2cc9</LNAM>
+            <LNAM>000c2cca</LNAM>
+            <LNAM>000c2cd1</LNAM>
+            <LNAM>000c2cd2</LNAM>
+            <LNAM>000c5e33</LNAM>
+            <LNAM>0006f751</LNAM>
+            <LNAM>0006f752</LNAM>
+            <LNAM>0006f753</LNAM>
+            <LNAM>0006f754</LNAM>
+            <LNAM>0006f755</LNAM>
+            <LNAM>0006f756</LNAM>
+            <LNAM>000c9b54</LNAM>
+            <LNAM>0006f757</LNAM>
+            <LNAM>000c1dad</LNAM>
+            <LNAM>000e9eaa</LNAM>
+            <LNAM>0006f758</LNAM>
+            <LNAM>000c1db4</LNAM>
+            <LNAM>0006f759</LNAM>
+            <LNAM>000c1db5</LNAM>
+            <LNAM>0006f75a</LNAM>
+            <LNAM>000c1db6</LNAM>
+            <LNAM>000e9ea0</LNAM>
+            <LNAM>0006f75b</LNAM>
+            <LNAM>000c1db7</LNAM>
+            <LNAM>000e9e9b</LNAM>
+            <LNAM>0006f75c</LNAM>
+            <LNAM>000c1db8</LNAM>
+            <LNAM>0006f75d</LNAM>
+            <LNAM>000c1db9</LNAM>
+            <LNAM>0002beb7</LNAM>
+            <LNAM>000ec486</LNAM>
+            <LNAM>0006f75e</LNAM>
+            <LNAM>000cc811</LNAM>
+            <LNAM>0006848c</LNAM>
+            <LNAM>0006848d</LNAM>
+            <LNAM>0006848b</LNAM>
+            <LNAM>0006848e</LNAM>
+            <LNAM>0007711b</LNAM>
+            <LNAM>00077120</LNAM>
+            <LNAM>00077119</LNAM>
+            <LNAM>000c54b3</LNAM>
+            <LNAM>000c54b0</LNAM>
+            <LNAM>000d43a0</LNAM>
+            <LNAM>00077117</LNAM>
+            <LNAM>00025064</LNAM>
+            <LNAM>00025065</LNAM>
+            <LNAM>040196f5</LNAM>
+            <LNAM>040196f6</LNAM>
+            <LNAM>0006848a</LNAM>
+            <LNAM>00077116</LNAM>
+            <LNAM>00068489</LNAM>
+            <LNAM>000dbff5</LNAM>
+            <LNAM>000770f9</LNAM>
+            <LNAM>00060f28</LNAM>
+            <LNAM>00060f29</LNAM>
+            <LNAM>00061d69</LNAM>
+            <LNAM>0004b042</LNAM>
+            <LNAM>00060f25</LNAM>
+            <LNAM>0004b045</LNAM>
+            <LNAM>00061d68</LNAM>
+            <LNAM>00060f27</LNAM>
+            <LNAM>0010aa2a</LNAM>
+            <LNAM>00061d64</LNAM>
+            <LNAM>0009d2b7</LNAM>
+            <LNAM>0009d2b8</LNAM>
+            <LNAM>00060ef4</LNAM>
+            <LNAM>00060ef2</LNAM>
+            <LNAM>00060f18</LNAM>
+            <LNAM>00060f14</LNAM>
+            <LNAM>00060ef3</LNAM>
+            <LNAM>0008dab6</LNAM>
+            <LNAM>00061bcf</LNAM>
+            <LNAM>00061bcd</LNAM>
+            <LNAM>00060f1b</LNAM>
+            <LNAM>00060f1c</LNAM>
+            <LNAM>0009d2bb</LNAM>
+            <LNAM>0010aa26</LNAM>
+            <LNAM>00060f19</LNAM>
+            <LNAM>000dbff4</LNAM>
+            <LNAM>0402471c</LNAM>
+            <LNAM>00061884</LNAM>
+            <LNAM>00060f1a</LNAM>
+            <LNAM>00061863</LNAM>
+            <LNAM>0008b069</LNAM>
+            <LNAM>0009d2ba</LNAM>
+            <LNAM>00061c83</LNAM>
+            <LNAM>0010aa28</LNAM>
+            <LNAM>0010aada</LNAM>
+            <LNAM>0010aa29</LNAM>
+            <LNAM>0010aadb</LNAM>
+            <LNAM>0010aadc</LNAM>
+            <LNAM>0010aadd</LNAM>
+            <LNAM>00082a47</LNAM>
+            <LNAM>02002f7a</LNAM>
+            <LNAM>0010aa24</LNAM>
+            <LNAM>0010aa25</LNAM>
+            <LNAM>0010aa34</LNAM>
+            <LNAM>0010aa33</LNAM>
+            <LNAM>0010aa38</LNAM>
+            <LNAM>000ec325</LNAM>
+            <LNAM>000ec324</LNAM>
+            <LNAM>000ec323</LNAM>
+            <LNAM>02002f7b</LNAM>
+            <LNAM>0010aa2e</LNAM>
+            <LNAM>0010aae0</LNAM>
+            <LNAM>0010aa35</LNAM>
+            <LNAM>0010aa2d</LNAM>
+            <LNAM>0010aa30</LNAM>
+            <LNAM>0010aade</LNAM>
+            <LNAM>0010aa2f</LNAM>
+            <LNAM>0010aadf</LNAM>
+            <LNAM>0010aa36</LNAM>
+            <LNAM>0010aaea</LNAM>
+            <LNAM>0010aa39</LNAM>
+            <LNAM>0010aaec</LNAM>
+            <LNAM>0010aaeb</LNAM>
+            <LNAM>000ec320</LNAM>
+            <LNAM>000ec322</LNAM>
+            <LNAM>0010aae2</LNAM>
+            <LNAM>0010aa32</LNAM>
+            <LNAM>0010aae3</LNAM>
+            <LNAM>0010aa31</LNAM>
+            <LNAM>0010aae1</LNAM>
+            <LNAM>000ec329</LNAM>
+            <LNAM>02002f7d</LNAM>
+            <LNAM>02002f7c</LNAM>
+            <LNAM>00060f1d</LNAM>
+            <LNAM>00060ef1</LNAM>
+            <LNAM>00060ef0</LNAM>
+            <LNAM>04024ef0</LNAM>
+            <LNAM>04024ef2</LNAM>
+            <LNAM>04033421</LNAM>
+            <LNAM>04024ef1</LNAM>
+            <LNAM>04033422</LNAM>
+            <LNAM>00077beb</LNAM>
+            <LNAM>020097d5</LNAM>
+            <LNAM>00061d61</LNAM>
+            <LNAM>00061d62</LNAM>
+            <LNAM>00061d60</LNAM>
+            <LNAM>00061d43</LNAM>
+            <LNAM>00061d5f</LNAM>
+            <LNAM>00061d5e</LNAM>
+            <LNAM>000a2a2c</LNAM>
+            <LNAM>0007712f</LNAM>
+            <LNAM>0009d31e</LNAM>
+            <LNAM>0010aa2c</LNAM>
+            <LNAM>0009d31d</LNAM>
+            <LNAM>0010aa2b</LNAM>
+            <LNAM>00061d66</LNAM>
+            <LNAM>0010aae6</LNAM>
+            <LNAM>00061d67</LNAM>
+            <LNAM>0010aae8</LNAM>
+            <LNAM>00077127</LNAM>
+            <LNAM>0010aae7</LNAM>
+            <LNAM>0007712d</LNAM>
+            <LNAM>00077130</LNAM>
+            <LNAM>000a50a0</LNAM>
+            <LNAM>00077125</LNAM>
+            <LNAM>000ec321</LNAM>
+            <LNAM>00077118</LNAM>
+            <LNAM>00066b13</LNAM>
+            <LNAM>00082e80</LNAM>
+            <LNAM>0402c124</LNAM>
+            <LNAM>00082ea9</LNAM>
+            <LNAM>00082e72</LNAM>
+            <LNAM>000835b6</LNAM>
+            <LNAM>000835ae</LNAM>
+            <LNAM>000835ad</LNAM>
+            <LNAM>000835b2</LNAM>
+            <LNAM>000835b1</LNAM>
+            <LNAM>000835b3</LNAM>
+            <LNAM>000835b4</LNAM>
+            <LNAM>00060f5b</LNAM>
+            <LNAM>00060f32</LNAM>
+            <LNAM>00061bd2</LNAM>
+            <LNAM>00060f5c</LNAM>
+            <LNAM>00060fb6</LNAM>
+            <LNAM>0006185f</LNAM>
+            <LNAM>0010aa27</LNAM>
+            <LNAM>00060f1f</LNAM>
+            <LNAM>00060f0f</LNAM>
+            <LNAM>00060ef7</LNAM>
+            <LNAM>00060f13</LNAM>
+            <LNAM>0002eef8</LNAM>
+            <LNAM>0010aae5</LNAM>
+            <LNAM>0002eef9</LNAM>
+            <LNAM>0010aae4</LNAM>
+            <LNAM>00060f12</LNAM>
+            <LNAM>00060f17</LNAM>
+            <LNAM>00077bce</LNAM>
+            <LNAM>00061d63</LNAM>
+            <LNAM>00060f15</LNAM>
+            <LNAM>00060f11</LNAM>
+            <LNAM>00060f1e</LNAM>
+            <LNAM>00061d65</LNAM>
+            <LNAM>00060f16</LNAM>
+            <LNAM>00060ef6</LNAM>
+            <LNAM>00060ef5</LNAM>
+            <LNAM>00060f24</LNAM>
+            <LNAM>0002eef7</LNAM>
+            <LNAM>0002eef6</LNAM>
+            <LNAM>000aebde</LNAM>
+            <LNAM>000f5dba</LNAM>
+            <LNAM>000aebe1</LNAM>
+            <LNAM>000afcc1</LNAM>
+            <LNAM>000aebdd</LNAM>
+            <LNAM>000aebea</LNAM>
+            <LNAM>000aebe7</LNAM>
+            <LNAM>000afc79</LNAM>
+            <LNAM>000afc70</LNAM>
+            <LNAM>0007711c</LNAM>
+            <LNAM>0007506a</LNAM>
+            <LNAM>000e7591</LNAM>
+            <LNAM>000e7592</LNAM>
+            <LNAM>000e7593</LNAM>
+            <LNAM>000e7594</LNAM>
+            <LNAM>000e758b</LNAM>
+            <LNAM>000e758c</LNAM>
+            <LNAM>000e758d</LNAM>
+            <LNAM>04033eda</LNAM>
+            <LNAM>02001c1b</LNAM>
+            <LNAM>000e758e</LNAM>
+            <LNAM>04033ed9</LNAM>
+            <LNAM>000e758f</LNAM>
+            <LNAM>000e7590</LNAM>
+            <LNAM>000e75ec</LNAM>
+            <LNAM>000f693a</LNAM>
+            <LNAM>000f69b5</LNAM>
+            <LNAM>040199e4</LNAM>
+            <LNAM>040196cc</LNAM>
+            <LNAM>04019678</LNAM>
+            <LNAM>040196ce</LNAM>
+            <LNAM>040196cd</LNAM>
+            <LNAM>02015bc8</LNAM>
+            <LNAM>02015bc9</LNAM>
+            <LNAM>02015bca</LNAM>
+            <LNAM>000a545f</LNAM>
+            <LNAM>0200ce41</LNAM>
+            <LNAM>000180e2</LNAM>
+            <LNAM>02001c3e</LNAM>
+            <LNAM>02002958</LNAM>
+            <LNAM>000a98ef</LNAM>
+            <LNAM>0005e3f1</LNAM>
+            <LNAM>02001c27</LNAM>
+            <LNAM>02019c99</LNAM>
+            <LNAM>000a98ee</LNAM>
+            <LNAM>0008e2c0</LNAM>
+            <LNAM>02001ca3</LNAM>
+            <LNAM>000a98f8</LNAM>
+            <LNAM>000180e5</LNAM>
+            <LNAM>000ae720</LNAM>
+            <LNAM>02013832</LNAM>
+            <LNAM>0008ccfe</LNAM>
+            <LNAM>00092217</LNAM>
+            <LNAM>0401997b</LNAM>
+            <LNAM>000f1fde</LNAM>
+            <LNAM>02012e92</LNAM>
+            <LNAM>02001c21</LNAM>
+            <LNAM>000cc75f</LNAM>
+            <LNAM>000cc761</LNAM>
+            <LNAM>0201a0cf</LNAM>
+            <LNAM>02012e91</LNAM>
+            <LNAM>000ee3a1</LNAM>
+            <LNAM>0401997c</LNAM>
+            <LNAM>000cc760</LNAM>
+            <LNAM>0201a044</LNAM>
+            <LNAM>000cc75e</LNAM>
+            <LNAM>0201a01f</LNAM>
+            <LNAM>02012e90</LNAM>
+            <LNAM>000ee3a3</LNAM>
+            <LNAM>000f1fee</LNAM>
+            <LNAM>000f1fef</LNAM>
+            <LNAM>000f1ff0</LNAM>
+            <LNAM>000f1ff1</LNAM>
+            <LNAM>0201a031</LNAM>
+            <LNAM>02012e8f</LNAM>
+            <LNAM>04032334</LNAM>
+            <LNAM>00025db3</LNAM>
+            <LNAM>00025db7</LNAM>
+            <LNAM>00091a20</LNAM>
+            <LNAM>0006f135</LNAM>
+            <LNAM>0006f136</LNAM>
+            <LNAM>00078e28</LNAM>
+            <LNAM>0006ce05</LNAM>
+            <LNAM>0006f138</LNAM>
+            <LNAM>0006f139</LNAM>
+            <LNAM>0006ce16</LNAM>
+            <LNAM>0006ce0a</LNAM>
+            <LNAM>00091a1f</LNAM>
+            <LNAM>0006ce01</LNAM>
+            <LNAM>00091a23</LNAM>
+            <LNAM>0006cdc9</LNAM>
+            <LNAM>0006f137</LNAM>
+            <LNAM>0006cdec</LNAM>
+            <LNAM>00091a22</LNAM>
+            <LNAM>000c12fc</LNAM>
+            <LNAM>0010d822</LNAM>
+            <LNAM>0002c856</LNAM>
+            <LNAM>0010aa1c</LNAM>
+            <LNAM>0010aa3b</LNAM>
+            <LNAM>0002c855</LNAM>
+            <LNAM>000f5db0</LNAM>
+            <LNAM>0002c854</LNAM>
+            <LNAM>000f5db8</LNAM>
+            <LNAM>0002c84f</LNAM>
+            <LNAM>0002c285</LNAM>
+            <LNAM>0002bd1c</LNAM>
+            <LNAM>0002bd24</LNAM>
+            <LNAM>0010aa1d</LNAM>
+            <LNAM>0010aa1e</LNAM>
+            <LNAM>0002bd22</LNAM>
+            <LNAM>0010aa21</LNAM>
+            <LNAM>0010aa20</LNAM>
+            <LNAM>0010aa1f</LNAM>
+            <LNAM>00106ab0</LNAM>
+            <LNAM>0002bd20</LNAM>
+            <LNAM>000ec34f</LNAM>
+            <LNAM>000ec350</LNAM>
+            <LNAM>000ec32a</LNAM>
+            <LNAM>02019c93</LNAM>
+            <LNAM>0200ce33</LNAM>
+            <LNAM>02009679</LNAM>
+            <LNAM>02019c94</LNAM>
+            <LNAM>0201788b</LNAM>
+            <LNAM>02019c95</LNAM>
+            <LNAM>0201788a</LNAM>
+            <LNAM>02019c96</LNAM>
+            <LNAM>0200ce38</LNAM>
+            <LNAM>02007cc9</LNAM>
+            <LNAM>02012e8c</LNAM>
+            <LNAM>02019c92</LNAM>
+            <LNAM>0200b5c7</LNAM>
+            <LNAM>02012e8d</LNAM>
+            <LNAM>02019c91</LNAM>
+            <LNAM>02007cc7</LNAM>
+            <LNAM>0201788c</LNAM>
+            <LNAM>0201788f</LNAM>
+            <LNAM>02017890</LNAM>
+            <LNAM>02017891</LNAM>
+            <LNAM>0201788d</LNAM>
+            <LNAM>0201788e</LNAM>
+            <LNAM>0002c2ac</LNAM>
+            <LNAM>0002c2ad</LNAM>
+            <LNAM>000344fb</LNAM>
+            <LNAM>000462f0</LNAM>
+            <LNAM>000462e6</LNAM>
+            <LNAM>000462e5</LNAM>
+            <LNAM>000c1c49</LNAM>
+            <LNAM>000c1c4a</LNAM>
+            <LNAM>000c1c4b</LNAM>
+            <LNAM>000c1c4c</LNAM>
+            <LNAM>000c1c45</LNAM>
+            <LNAM>000c1c46</LNAM>
+            <LNAM>000c1c47</LNAM>
+            <LNAM>000c1c48</LNAM>
+            <LNAM>00092172</LNAM>
+            <LNAM>00092174</LNAM>
+            <LNAM>0009216b</LNAM>
+            <LNAM>0009216c</LNAM>
+            <LNAM>0009216f</LNAM>
+            <LNAM>00092170</LNAM>
+            <LNAM>00092171</LNAM>
+            <LNAM>000462e9</LNAM>
+            <LNAM>000462e8</LNAM>
+            <LNAM>0009d4bc</LNAM>
+            <LNAM>0009d4f6</LNAM>
+            <LNAM>0009d51f</LNAM>
+            <LNAM>000a6f92</LNAM>
+            <LNAM>000a6f9b</LNAM>
+            <LNAM>000f7f4f</LNAM>
+            <LNAM>000a2fec</LNAM>
+            <LNAM>000a2ff0</LNAM>
+            <LNAM>000715fa</LNAM>
+            <LNAM>000dafa0</LNAM>
+            <LNAM>00028794</LNAM>
+            <LNAM>000daf9f</LNAM>
+            <LNAM>0006f15a</LNAM>
+            <LNAM>00091a08</LNAM>
+            <LNAM>0006f14c</LNAM>
+            <LNAM>00091a07</LNAM>
+            <LNAM>00077e91</LNAM>
+            <LNAM>000daee3</LNAM>
+            <LNAM>000daee1</LNAM>
+            <LNAM>00077e92</LNAM>
+            <LNAM>000daee2</LNAM>
+            <LNAM>000daee0</LNAM>
+            <LNAM>000f605b</LNAM>
+            <LNAM>00091a09</LNAM>
+            <LNAM>00091a0a</LNAM>
+            <LNAM>0009307d</LNAM>
+            <LNAM>02014df2</LNAM>
+            <LNAM>00077e90</LNAM>
+            <LNAM>0006f15f</LNAM>
+            <LNAM>0006f15b</LNAM>
+            <LNAM>0006f15d</LNAM>
+            <LNAM>0006f15c</LNAM>
+            <LNAM>0006f15e</LNAM>
+            <LNAM>00091a01</LNAM>
+            <LNAM>000e6d7a</LNAM>
+            <LNAM>000f6050</LNAM>
+            <LNAM>000f6051</LNAM>
+            <LNAM>000f6052</LNAM>
+            <LNAM>000f6070</LNAM>
+            <LNAM>000f6071</LNAM>
+            <LNAM>00091a10</LNAM>
+            <LNAM>00091a03</LNAM>
+            <LNAM>00091a0b</LNAM>
+            <LNAM>00091a04</LNAM>
+            <LNAM>00091a02</LNAM>
+            <LNAM>000f6053</LNAM>
+            <LNAM>000f6054</LNAM>
+            <LNAM>000f6055</LNAM>
+            <LNAM>000f6056</LNAM>
+            <LNAM>00091a0d</LNAM>
+            <LNAM>00091a11</LNAM>
+            <LNAM>00091a0e</LNAM>
+            <LNAM>00091a06</LNAM>
+            <LNAM>00091a0c</LNAM>
+            <LNAM>00091a0f</LNAM>
+            <LNAM>00091a05</LNAM>
+            <LNAM>000bff76</LNAM>
+            <LNAM>000bfc1a</LNAM>
+            <LNAM>000bfc17</LNAM>
+            <LNAM>00023dd5</LNAM>
+            <LNAM>000f0ec2</LNAM>
+            <LNAM>000f0ec1</LNAM>
+            <LNAM>00063df7</LNAM>
+            <LNAM>0007181f</LNAM>
+            <LNAM>00071820</LNAM>
+            <LNAM>00071821</LNAM>
+            <LNAM>00071822</LNAM>
+            <LNAM>00071823</LNAM>
+            <LNAM>00071824</LNAM>
+            <LNAM>00071825</LNAM>
+            <LNAM>00071826</LNAM>
+            <LNAM>00071827</LNAM>
+            <LNAM>00071828</LNAM>
+            <LNAM>00071829</LNAM>
+            <LNAM>0007182a</LNAM>
+            <LNAM>0007182b</LNAM>
+            <LNAM>0007182c</LNAM>
+            <LNAM>0007182d</LNAM>
+            <LNAM>0007182e</LNAM>
+            <LNAM>0007182f</LNAM>
+            <LNAM>00071830</LNAM>
+            <LNAM>00071831</LNAM>
+            <LNAM>00071832</LNAM>
+            <LNAM>00071833</LNAM>
+            <LNAM>00071834</LNAM>
+            <LNAM>00071835</LNAM>
+            <LNAM>00071836</LNAM>
+            <LNAM>00071837</LNAM>
+            <LNAM>00071838</LNAM>
+            <LNAM>00071839</LNAM>
+            <LNAM>0007183a</LNAM>
+            <LNAM>0007183b</LNAM>
+            <LNAM>0007183c</LNAM>
+            <LNAM>0007183d</LNAM>
+            <LNAM>0007183e</LNAM>
+            <LNAM>0007183f</LNAM>
+            <LNAM>00071840</LNAM>
+            <LNAM>00071841</LNAM>
+            <LNAM>00071842</LNAM>
+            <LNAM>00071843</LNAM>
+            <LNAM>00071844</LNAM>
+            <LNAM>0007f930</LNAM>
+            <LNAM>0006c0b8</LNAM>
+            <LNAM>0007f929</LNAM>
+            <LNAM>0007f92e</LNAM>
+            <LNAM>0007f92f</LNAM>
+            <LNAM>0007f932</LNAM>
+            <LNAM>0007f931</LNAM>
+            <LNAM>0007f92a</LNAM>
+            <LNAM>0007f92b</LNAM>
+            <LNAM>0007f92c</LNAM>
+            <LNAM>0007f92d</LNAM>
+            <LNAM>0007f933</LNAM>
+            <LNAM>001015aa</LNAM>
+            <LNAM>000be2a3</LNAM>
+            <LNAM>000ea068</LNAM>
+            <LNAM>001015a8</LNAM>
+            <LNAM>000be2a2</LNAM>
+            <LNAM>00083adc</LNAM>
+            <LNAM>00085fe4</LNAM>
+            <LNAM>000d0b5e</LNAM>
+            <LNAM>00079804</LNAM>
+            <LNAM>0007c41d</LNAM>
+            <LNAM>000c7a12</LNAM>
+            <LNAM>000c79cc</LNAM>
+            <LNAM>0009d849</LNAM>
+            <LNAM>000c79ca</LNAM>
+            <LNAM>000c7932</LNAM>
+            <LNAM>000c79ce</LNAM>
+            <LNAM>000ca4cd</LNAM>
+            <LNAM>000c79c8</LNAM>
+            <LNAM>000c7930</LNAM>
+            <LNAM>000c792e</LNAM>
+            <LNAM>000a313b</LNAM>
+            <LNAM>0007c41e</LNAM>
+            <LNAM>00078db9</LNAM>
+            <LNAM>00096c3e</LNAM>
+            <LNAM>00096c3f</LNAM>
+            <LNAM>00078dbb</LNAM>
+            <LNAM>00096c40</LNAM>
+            <LNAM>000cd741</LNAM>
+            <LNAM>000cd742</LNAM>
+            <LNAM>000cd743</LNAM>
+            <LNAM>000c25f2</LNAM>
+            <LNAM>00101f6c</LNAM>
+            <LNAM>00101f4b</LNAM>
+            <LNAM>0008a874</LNAM>
+            <LNAM>0006cfc8</LNAM>
+            <LNAM>000fbb19</LNAM>
+            <LNAM>0006cfca</LNAM>
+            <LNAM>000d5713</LNAM>
+            <LNAM>000d5714</LNAM>
+            <LNAM>000d5715</LNAM>
+            <LNAM>000d5712</LNAM>
+            <LNAM>000f5bdd</LNAM>
+            <LNAM>000752c8</LNAM>
+            <LNAM>000752be</LNAM>
+            <LNAM>000cf264</LNAM>
+            <LNAM>00074e13</LNAM>
+            <LNAM>0006af7c</LNAM>
+            <LNAM>0009e2f4</LNAM>
+            <LNAM>000c7947</LNAM>
+            <LNAM>000c7948</LNAM>
+            <LNAM>000c7949</LNAM>
+            <LNAM>000c794a</LNAM>
+            <LNAM>000c794b</LNAM>
+            <LNAM>000a2fef</LNAM>
+            <LNAM>000e7c3a</LNAM>
+            <LNAM>00023910</LNAM>
+            <LNAM>000e7c3c</LNAM>
+            <LNAM>000a0896</LNAM>
+            <LNAM>000a0897</LNAM>
+            <LNAM>02014e2b</LNAM>
+            <LNAM>04039f2b</LNAM>
+            <LNAM>0002a576</LNAM>
+            <LNAM>0005ea3c</LNAM>
+            <LNAM>0002a572</LNAM>
+            <LNAM>000982d6</LNAM>
+            <LNAM>000982d5</LNAM>
+            <LNAM>0402b6b1</LNAM>
+            <LNAM>0402b6af</LNAM>
+            <LNAM>0402b6b0</LNAM>
+            <LNAM>00035a35</LNAM>
+            <LNAM>040347ab</LNAM>
+            <LNAM>00062a0a</LNAM>
+            <LNAM>00062a0b</LNAM>
+            <LNAM>000fdcc5</LNAM>
+            <LNAM>000a9db5</LNAM>
+            <LNAM>0009b811</LNAM>
+            <LNAM>0009782f</LNAM>
+            <LNAM>00097830</LNAM>
+            <LNAM>000e410e</LNAM>
+            <LNAM>000dbf44</LNAM>
+            <LNAM>00072607</LNAM>
+            <LNAM>00072606</LNAM>
+            <LNAM>0403476a</LNAM>
+            <LNAM>0009db6c</LNAM>
+            <LNAM>00097831</LNAM>
+            <LNAM>0002a577</LNAM>
+            <LNAM>001067ec</LNAM>
+            <LNAM>000cd781</LNAM>
+            <LNAM>00018483</LNAM>
+            <LNAM>0009b769</LNAM>
+            <LNAM>000cd745</LNAM>
+            <LNAM>000860c1</LNAM>
+            <LNAM>04018d91</LNAM>
+            <LNAM>04018d90</LNAM>
+            <LNAM>04033c52</LNAM>
+            <LNAM>0200c1c9</LNAM>
+            <LNAM>0200c1ca</LNAM>
+            <LNAM>0200c1ce</LNAM>
+            <LNAM>0200c1cc</LNAM>
+            <LNAM>02008753</LNAM>
+            <LNAM>0200c1cb</LNAM>
+            <LNAM>02013b44</LNAM>
+            <LNAM>02013b45</LNAM>
+            <LNAM>02013b40</LNAM>
+            <LNAM>02013b41</LNAM>
+            <LNAM>02013b3e</LNAM>
+            <LNAM>02013b43</LNAM>
+            <LNAM>020153c8</LNAM>
+            <LNAM>02013b42</LNAM>
+            <LNAM>02013b46</LNAM>
+            <LNAM>02013b3f</LNAM>
+            <LNAM>02014fec</LNAM>
+            <LNAM>0200c1cd</LNAM>
+            <LNAM>00075046</LNAM>
+            <LNAM>020157c5</LNAM>
+            <LNAM>020157c4</LNAM>
+            <LNAM>0200685a</LNAM>
+            <LNAM>02018158</LNAM>
+            <LNAM>02016a51</LNAM>
+            <LNAM>0200fccb</LNAM>
+            <LNAM>02012fcd</LNAM>
+            <LNAM>02018148</LNAM>
+            <LNAM>02012fd0</LNAM>
+            <LNAM>0201814a</LNAM>
+            <LNAM>0200685b</LNAM>
+            <LNAM>020128ef</LNAM>
+            <LNAM>020128f0</LNAM>
+            <LNAM>02006859</LNAM>
+            <LNAM>02019a40</LNAM>
+            <LNAM>02019a43</LNAM>
+            <LNAM>02012fcb</LNAM>
+            <LNAM>02018156</LNAM>
+            <LNAM>02018669</LNAM>
+            <LNAM>0200438d</LNAM>
+            <LNAM>0200439b</LNAM>
+            <LNAM>020123ed</LNAM>
+            <LNAM>020176e3</LNAM>
+            <LNAM>02013dd9</LNAM>
+            <LNAM>0200ac05</LNAM>
+            <LNAM>02017e75</LNAM>
+            <LNAM>0200ba48</LNAM>
+            <LNAM>0200ba46</LNAM>
+            <LNAM>0200ba4a</LNAM>
+            <LNAM>020123f0</LNAM>
+            <LNAM>02017d61</LNAM>
+            <LNAM>0200ba45</LNAM>
+            <LNAM>0200ba49</LNAM>
+            <LNAM>0200ba44</LNAM>
+            <LNAM>0200c73d</LNAM>
+            <LNAM>02017e7c</LNAM>
+            <LNAM>02017e7d</LNAM>
+            <LNAM>0200ba4b</LNAM>
+            <LNAM>0200ba47</LNAM>
+            <LNAM>020123f2</LNAM>
+            <LNAM>02017d58</LNAM>
+            <LNAM>02017e7f</LNAM>
+            <LNAM>02017e82</LNAM>
+            <LNAM>02017e83</LNAM>
+            <LNAM>02017e7e</LNAM>
+            <LNAM>02017e80</LNAM>
+            <LNAM>02006f10</LNAM>
+            <LNAM>02010a05</LNAM>
+            <LNAM>02018db3</LNAM>
+            <LNAM>02006692</LNAM>
+            <LNAM>02006f11</LNAM>
+            <LNAM>02018db2</LNAM>
+            <LNAM>02006691</LNAM>
+            <LNAM>02010a04</LNAM>
+            <LNAM>02006f12</LNAM>
+            <LNAM>02006f1d</LNAM>
+            <LNAM>02004be2</LNAM>
+            <LNAM>02005069</LNAM>
+            <LNAM>02005074</LNAM>
+            <LNAM>0200efbc</LNAM>
+            <LNAM>0200ce13</LNAM>
+            <LNAM>0200ce11</LNAM>
+            <LNAM>0200ce12</LNAM>
+            <LNAM>0401eee7</LNAM>
+            <LNAM>04035a87</LNAM>
+            <LNAM>040298f8</LNAM>
+            <LNAM>040298f7</LNAM>
+            <LNAM>0401eeea</LNAM>
+            <LNAM>0401eee9</LNAM>
+            <LNAM>0401eeeb</LNAM>
+            <LNAM>040298f6</LNAM>
+            <LNAM>040298f5</LNAM>
+            <LNAM>0401eef6</LNAM>
+            <LNAM>04031d59</LNAM>
+            <LNAM>04031d5a</LNAM>
+            <LNAM>04031d5b</LNAM>
+            <LNAM>04031d5c</LNAM>
+            <LNAM>04031d5d</LNAM>
+            <LNAM>04031d5e</LNAM>
+            <LNAM>04031d5f</LNAM>
+            <LNAM>04031d60</LNAM>
+            <LNAM>04031d61</LNAM>
+            <LNAM>04031d62</LNAM>
+            <LNAM>04031d63</LNAM>
+            <LNAM>0403d3c0</LNAM>
+            <LNAM>04039efc</LNAM>
+            <LNAM>0401eee8</LNAM>
+            <LNAM>0401eeee</LNAM>
+            <LNAM>04035346</LNAM>
+            <LNAM>0403d3bf</LNAM>
+            <LNAM>04028b9f</LNAM>
+            <LNAM>04028b99</LNAM>
+            <LNAM>04028b9a</LNAM>
+            <LNAM>04028b97</LNAM>
+            <LNAM>04028b98</LNAM>
+            <LNAM>0401b932</LNAM>
+            <LNAM>0403383d</LNAM>
+            <LNAM>0403383c</LNAM>
+            <LNAM>00082316</LNAM>
+            <LNAM>00082312</LNAM>
+            <LNAM>00082315</LNAM>
+            <LNAM>00082313</LNAM>
+            <LNAM>00082311</LNAM>
+            <LNAM>0006cd6f</LNAM>
+            <LNAM>00082310</LNAM>
+            <LNAM>0006cd5e</LNAM>
+            <LNAM>0006cd73</LNAM>
+            <LNAM>000783a5</LNAM>
+            <LNAM>000a882f</LNAM>
+            <LNAM>000d2a3d</LNAM>
+            <LNAM>000d2a3c</LNAM>
+            <LNAM>00107be6</LNAM>
+            <LNAM>00028793</LNAM>
+            <LNAM>000a4639</LNAM>
+            <LNAM>000a4636</LNAM>
+            <LNAM>00028795</LNAM>
+            <LNAM>000783c3</LNAM>
+            <LNAM>000783c2</LNAM>
+            <LNAM>000783a7</LNAM>
+            <LNAM>000a8831</LNAM>
+            <LNAM>00028790</LNAM>
+            <LNAM>00028791</LNAM>
+            <LNAM>000287ff</LNAM>
+            <LNAM>000a4637</LNAM>
+            <LNAM>000a4638</LNAM>
+            <LNAM>000287b5</LNAM>
+            <LNAM>000287b6</LNAM>
+            <LNAM>000f0f0a</LNAM>
+            <LNAM>000f0f02</LNAM>
+            <LNAM>000e6456</LNAM>
+            <LNAM>000f0eff</LNAM>
+            <LNAM>000f0efe</LNAM>
+            <LNAM>000f0f01</LNAM>
+            <LNAM>000f4eb9</LNAM>
+            <LNAM>000d0ae7</LNAM>
+            <LNAM>000f4eb8</LNAM>
+            <LNAM>000f0f05</LNAM>
+            <LNAM>000f0f03</LNAM>
+            <LNAM>000f0f06</LNAM>
+            <LNAM>000f0f00</LNAM>
+            <LNAM>000f0f07</LNAM>
+            <LNAM>000f0f04</LNAM>
+            <LNAM>000f0f0b</LNAM>
+            <LNAM>000f4ec6</LNAM>
+            <LNAM>000f0f08</LNAM>
+            <LNAM>000f0f09</LNAM>
+            <LNAM>000f0f2b</LNAM>
+            <LNAM>04031f62</LNAM>
+            <LNAM>000f4e4f</LNAM>
+            <LNAM>000f4eef</LNAM>
+            <LNAM>04037262</LNAM>
+            <LNAM>000d0ad2</LNAM>
+            <LNAM>000d0a9b</LNAM>
+            <LNAM>04024e1e</LNAM>
+            <LNAM>04024e1c</LNAM>
+            <LNAM>000ec31e</LNAM>
+            <LNAM>000ec312</LNAM>
+            <LNAM>000ec318</LNAM>
+            <LNAM>000ec319</LNAM>
+            <LNAM>000d0a88</LNAM>
+            <LNAM>000d0a87</LNAM>
+            <LNAM>000cacf8</LNAM>
+            <LNAM>000cacfa</LNAM>
+            <LNAM>000cacfb</LNAM>
+            <LNAM>000cacfc</LNAM>
+            <LNAM>000cacfd</LNAM>
+            <LNAM>000cacf9</LNAM>
+            <LNAM>000cacfe</LNAM>
+            <LNAM>000cacff</LNAM>
+            <LNAM>000cad00</LNAM>
+            <LNAM>000cad01</LNAM>
+            <LNAM>000b9c24</LNAM>
+            <LNAM>000b9c27</LNAM>
+            <LNAM>04028ba2</LNAM>
+            <LNAM>04028ba1</LNAM>
+            <LNAM>04028ba0</LNAM>
+            <LNAM>04028ba7</LNAM>
+            <LNAM>000c99d2</LNAM>
+            <LNAM>00074dac</LNAM>
+            <LNAM>00074d1e</LNAM>
+            <LNAM>00074e7a</LNAM>
+            <LNAM>00025802</LNAM>
+            <LNAM>00074e10</LNAM>
+            <LNAM>00074def</LNAM>
+            <LNAM>00075033</LNAM>
+            <LNAM>00025808</LNAM>
+            <LNAM>0010d2ce</LNAM>
+            <LNAM>0006cfba</LNAM>
+            <LNAM>000ff8ea</LNAM>
+            <LNAM>000f540d</LNAM>
+            <LNAM>000f540a</LNAM>
+            <LNAM>000f5409</LNAM>
+            <LNAM>000f540c</LNAM>
+            <LNAM>000f540b</LNAM>
+            <LNAM>000f540e</LNAM>
+            <LNAM>000ff8eb</LNAM>
+            <LNAM>00100098</LNAM>
+            <LNAM>000ff8ec</LNAM>
+            <LNAM>000ff8ed</LNAM>
+            <LNAM>000ff8ee</LNAM>
+            <LNAM>000ff8ef</LNAM>
+            <LNAM>000ff8f0</LNAM>
+            <LNAM>000ff8f1</LNAM>
+            <LNAM>000ff8f2</LNAM>
+            <LNAM>0006dd56</LNAM>
+            <LNAM>0006dd57</LNAM>
+            <LNAM>0006dd58</LNAM>
+            <LNAM>0006dd59</LNAM>
+            <LNAM>0006dd5a</LNAM>
+            <LNAM>0006dd5b</LNAM>
+            <LNAM>0006dd5c</LNAM>
+            <LNAM>0006dd5d</LNAM>
+            <LNAM>0006dd5e</LNAM>
+            <LNAM>00076602</LNAM>
+            <LNAM>000bfdbb</LNAM>
+            <LNAM>000bfdbd</LNAM>
+            <LNAM>00097a03</LNAM>
+            <LNAM>000eb34a</LNAM>
+            <LNAM>00076603</LNAM>
+            <LNAM>0006dd5f</LNAM>
+            <LNAM>0006dd61</LNAM>
+            <LNAM>0006dd62</LNAM>
+            <LNAM>0006dd63</LNAM>
+            <LNAM>0006dd64</LNAM>
+            <LNAM>0006dd65</LNAM>
+            <LNAM>0006dd66</LNAM>
+            <LNAM>00074d9f</LNAM>
+            <LNAM>00074d9a</LNAM>
+            <LNAM>000dc850</LNAM>
+            <LNAM>0006dd67</LNAM>
+            <LNAM>000dc851</LNAM>
+            <LNAM>0006dd68</LNAM>
+            <LNAM>00074d23</LNAM>
+            <LNAM>0006dd69</LNAM>
+            <LNAM>000d9315</LNAM>
+            <LNAM>000bff44</LNAM>
+            <LNAM>00074cde</LNAM>
+            <LNAM>0007660f</LNAM>
+            <LNAM>000257c8</LNAM>
+            <LNAM>0007660e</LNAM>
+            <LNAM>0007660d</LNAM>
+            <LNAM>00076604</LNAM>
+            <LNAM>00076605</LNAM>
+            <LNAM>00076606</LNAM>
+            <LNAM>00076607</LNAM>
+            <LNAM>00076608</LNAM>
+            <LNAM>00076609</LNAM>
+            <LNAM>00074ce8</LNAM>
+            <LNAM>0007660a</LNAM>
+            <LNAM>000f9535</LNAM>
+            <LNAM>0007660b</LNAM>
+            <LNAM>000f9536</LNAM>
+            <LNAM>0007660c</LNAM>
+            <LNAM>00074d1d</LNAM>
+            <LNAM>000b7ca1</LNAM>
+            <LNAM>00074cdd</LNAM>
+            <LNAM>000b7c9f</LNAM>
+            <LNAM>00074d19</LNAM>
+            <LNAM>000b7ca0</LNAM>
+            <LNAM>000b7ca2</LNAM>
+            <LNAM>00074fe4</LNAM>
+            <LNAM>00076629</LNAM>
+            <LNAM>00074fa5</LNAM>
+            <LNAM>000b7c66</LNAM>
+            <LNAM>00074e32</LNAM>
+            <LNAM>0006cfb9</LNAM>
+            <LNAM>000765f5</LNAM>
+            <LNAM>000765f6</LNAM>
+            <LNAM>000765f7</LNAM>
+            <LNAM>00074fe5</LNAM>
+            <LNAM>000765f4</LNAM>
+            <LNAM>000765f8</LNAM>
+            <LNAM>000765f9</LNAM>
+            <LNAM>000765fa</LNAM>
+            <LNAM>000765fb</LNAM>
+            <LNAM>040298e0</LNAM>
+            <LNAM>000765fc</LNAM>
+            <LNAM>000765fd</LNAM>
+            <LNAM>000765fe</LNAM>
+            <LNAM>000765f3</LNAM>
+            <LNAM>000765ff</LNAM>
+            <LNAM>00076600</LNAM>
+            <LNAM>00076601</LNAM>
+            <LNAM>0009dbed</LNAM>
+            <LNAM>0009ddd3</LNAM>
+            <LNAM>000b7a48</LNAM>
+            <LNAM>0010686f</LNAM>
+            <LNAM>000b7a47</LNAM>
+            <LNAM>0009e2ba</LNAM>
+            <LNAM>0009e2b9</LNAM>
+            <LNAM>000b7a49</LNAM>
+            <LNAM>000a96c8</LNAM>
+            <LNAM>000eb43e</LNAM>
+            <LNAM>000c6897</LNAM>
+            <LNAM>000eb43f</LNAM>
+            <LNAM>000c689d</LNAM>
+            <LNAM>000eb43d</LNAM>
+            <LNAM>00037fed</LNAM>
+            <LNAM>000c865f</LNAM>
+            <LNAM>000c6898</LNAM>
+            <LNAM>000c6899</LNAM>
+            <LNAM>000c689a</LNAM>
+            <LNAM>000c689b</LNAM>
+            <LNAM>000c689c</LNAM>
+            <LNAM>000c5e43</LNAM>
+            <LNAM>000cd98c</LNAM>
+            <LNAM>00071847</LNAM>
+            <LNAM>00071848</LNAM>
+            <LNAM>00071849</LNAM>
+            <LNAM>0007184a</LNAM>
+            <LNAM>0007184b</LNAM>
+            <LNAM>0007184c</LNAM>
+            <LNAM>0007184d</LNAM>
+            <LNAM>000752b6</LNAM>
+            <LNAM>000752b5</LNAM>
+            <LNAM>000752b4</LNAM>
+            <LNAM>000752b1</LNAM>
+            <LNAM>000c54ba</LNAM>
+            <LNAM>000c54ac</LNAM>
+            <LNAM>000c54aa</LNAM>
+            <LNAM>04036591</LNAM>
+            <LNAM>000411c5</LNAM>
+            <LNAM>000411c6</LNAM>
+            <LNAM>000a0718</LNAM>
+            <LNAM>0008230d</LNAM>
+            <LNAM>0009a851</LNAM>
+            <LNAM>00026144</LNAM>
+            <LNAM>0008230e</LNAM>
+            <LNAM>000825d6</LNAM>
+            <LNAM>000228fc</LNAM>
+            <LNAM>000c2625</LNAM>
+            <LNAM>000a0841</LNAM>
+            <LNAM>000a07cc</LNAM>
+            <LNAM>000a0840</LNAM>
+            <LNAM>000a083d</LNAM>
+            <LNAM>0009a5f0</LNAM>
+            <LNAM>000993d5</LNAM>
+            <LNAM>000984a5</LNAM>
+            <LNAM>00097ac4</LNAM>
+            <LNAM>000fdb3d</LNAM>
+            <LNAM>00068e62</LNAM>
+            <LNAM>00068e68</LNAM>
+            <LNAM>0002521e</LNAM>
+            <LNAM>000c2b11</LNAM>
+            <LNAM>00025843</LNAM>
+            <LNAM>00025844</LNAM>
+            <LNAM>000c2b13</LNAM>
+            <LNAM>00025845</LNAM>
+            <LNAM>00025846</LNAM>
+            <LNAM>00081d7d</LNAM>
+            <LNAM>000c2b12</LNAM>
+            <LNAM>00025848</LNAM>
+            <LNAM>000e0f64</LNAM>
+            <LNAM>0002521f</LNAM>
+            <LNAM>00025220</LNAM>
+            <LNAM>00025849</LNAM>
+            <LNAM>04018cfd</LNAM>
+            <LNAM>00098416</LNAM>
+            <LNAM>0002584a</LNAM>
+            <LNAM>000f498e</LNAM>
+            <LNAM>0403288c</LNAM>
+            <LNAM>00026fa1</LNAM>
+            <LNAM>00026fdf</LNAM>
+            <LNAM>000b5d11</LNAM>
+            <LNAM>00026fcc</LNAM>
+            <LNAM>00026fe1</LNAM>
+            <LNAM>00026fca</LNAM>
+            <LNAM>00026fcb</LNAM>
+            <LNAM>00026fdd</LNAM>
+            <LNAM>00026fce</LNAM>
+            <LNAM>00026fcd</LNAM>
+            <LNAM>00026fcf</LNAM>
+            <LNAM>00026fd0</LNAM>
+            <LNAM>00028a83</LNAM>
+            <LNAM>00028a84</LNAM>
+            <LNAM>00028a85</LNAM>
+            <LNAM>00028a86</LNAM>
+            <LNAM>00028a87</LNAM>
+            <LNAM>00028a88</LNAM>
+            <LNAM>00028a89</LNAM>
+            <LNAM>00028a8a</LNAM>
+            <LNAM>00026fa0</LNAM>
+            <LNAM>00026fd1</LNAM>
+            <LNAM>00026fd2</LNAM>
+            <LNAM>00030b00</LNAM>
+            <LNAM>000c5494</LNAM>
+            <LNAM>000a4c9f</LNAM>
+            <LNAM>0009a7f9</LNAM>
+            <LNAM>00028a64</LNAM>
+            <LNAM>00034940</LNAM>
+            <LNAM>00026fd3</LNAM>
+            <LNAM>00026fd4</LNAM>
+            <LNAM>00034941</LNAM>
+            <LNAM>00026fd5</LNAM>
+            <LNAM>00026fd6</LNAM>
+            <LNAM>00026fd7</LNAM>
+            <LNAM>00028a94</LNAM>
+            <LNAM>00028aa8</LNAM>
+            <LNAM>00028a95</LNAM>
+            <LNAM>00028a96</LNAM>
+            <LNAM>00099456</LNAM>
+            <LNAM>00026fd9</LNAM>
+            <LNAM>00026fda</LNAM>
+            <LNAM>00028a6f</LNAM>
+            <LNAM>00074033</LNAM>
+            <LNAM>0009a73f</LNAM>
+            <LNAM>0002f1b4</LNAM>
+            <LNAM>0002f1b5</LNAM>
+            <LNAM>0006a528</LNAM>
+            <LNAM>0002f1b7</LNAM>
+            <LNAM>0002f1b8</LNAM>
+            <LNAM>0002f1b6</LNAM>
+            <LNAM>000609de</LNAM>
+            <LNAM>000609dc</LNAM>
+            <LNAM>0006c0e9</LNAM>
+            <LNAM>00076922</LNAM>
+            <LNAM>0005df64</LNAM>
+            <LNAM>000609e0</LNAM>
+            <LNAM>000a0c7b</LNAM>
+            <LNAM>00098496</LNAM>
+            <LNAM>00098497</LNAM>
+            <LNAM>00098498</LNAM>
+            <LNAM>0006cd3f</LNAM>
+            <LNAM>0006c7b5</LNAM>
+            <LNAM>04027bc9</LNAM>
+            <LNAM>04027bc0</LNAM>
+            <LNAM>02017e81</LNAM>
+            <LNAM>0006cfcd</LNAM>
+            <LNAM>0006cfce</LNAM>
+            <LNAM>00032d1b</LNAM>
+            <LNAM>00032d1c</LNAM>
+            <LNAM>00032d1d</LNAM>
+            <LNAM>00032d1e</LNAM>
+            <LNAM>00032d1f</LNAM>
+            <LNAM>0009a7db</LNAM>
+            <LNAM>0009a7dc</LNAM>
+            <LNAM>0009a7dd</LNAM>
+            <LNAM>00035af1</LNAM>
+            <LNAM>0005dfe5</LNAM>
+            <LNAM>0005dfe4</LNAM>
+            <LNAM>0005dfe6</LNAM>
+            <LNAM>0005dfe7</LNAM>
+            <LNAM>00043326</LNAM>
+            <LNAM>00043327</LNAM>
+            <LNAM>000a598b</LNAM>
+            <LNAM>000a4d2b</LNAM>
+            <LNAM>0009a8a5</LNAM>
+            <LNAM>000a0842</LNAM>
+            <LNAM>000a08b3</LNAM>
+            <LNAM>000a46ad</LNAM>
+            <LNAM>00062a24</LNAM>
+            <LNAM>0009a9c8</LNAM>
+            <LNAM>00026e77</LNAM>
+            <LNAM>00032d13</LNAM>
+            <LNAM>00032d14</LNAM>
+            <LNAM>04035a89</LNAM>
+            <LNAM>04035a88</LNAM>
+            <LNAM>0004286d</LNAM>
+            <LNAM>00042870</LNAM>
+            <LNAM>00042875</LNAM>
+            <LNAM>0004287b</LNAM>
+            <LNAM>0004287d</LNAM>
+            <LNAM>00042877</LNAM>
+            <LNAM>00101a5e</LNAM>
+            <LNAM>00073b85</LNAM>
+            <LNAM>0006cfc9</LNAM>
+            <LNAM>0006cfcb</LNAM>
+            <LNAM>000d55db</LNAM>
+            <LNAM>00074357</LNAM>
+            <LNAM>000a7149</LNAM>
+            <LNAM>0005c164</LNAM>
+            <LNAM>0005c107</LNAM>
+            <LNAM>000197c2</LNAM>
+            <LNAM>0005c16e</LNAM>
+            <LNAM>0001ef3f</LNAM>
+            <LNAM>00019845</LNAM>
+            <LNAM>000659ee</LNAM>
+            <LNAM>00019856</LNAM>
+            <LNAM>00019885</LNAM>
+            <LNAM>04019654</LNAM>
+            <LNAM>00086c2c</LNAM>
+            <LNAM>0006b52b</LNAM>
+            <LNAM>0006e1ed</LNAM>
+            <LNAM>0007e903</LNAM>
+            <LNAM>0006e1ec</LNAM>
+            <LNAM>000b23c4</LNAM>
+            <LNAM>0006cd7c</LNAM>
+            <LNAM>000b23f1</LNAM>
+            <LNAM>000b2415</LNAM>
+            <LNAM>000b23f3</LNAM>
+            <LNAM>000b2416</LNAM>
+            <LNAM>000b23f4</LNAM>
+            <LNAM>000b23f6</LNAM>
+            <LNAM>000b241c</LNAM>
+            <LNAM>000b241d</LNAM>
+            <LNAM>000b241e</LNAM>
+            <LNAM>000b241f</LNAM>
+            <LNAM>000b2420</LNAM>
+            <LNAM>000b2421</LNAM>
+            <LNAM>000b2422</LNAM>
+            <LNAM>000b2423</LNAM>
+            <LNAM>000b2424</LNAM>
+            <LNAM>000b2425</LNAM>
+            <LNAM>000b2426</LNAM>
+            <LNAM>000b2427</LNAM>
+            <LNAM>000b2428</LNAM>
+            <LNAM>000b2429</LNAM>
+            <LNAM>000b242a</LNAM>
+            <LNAM>000bd1a7</LNAM>
+            <LNAM>000b242b</LNAM>
+            <LNAM>000b84c0</LNAM>
+            <LNAM>000b242c</LNAM>
+            <LNAM>000b242d</LNAM>
+            <LNAM>000b242e</LNAM>
+            <LNAM>000b242f</LNAM>
+            <LNAM>000b2430</LNAM>
+            <LNAM>000b2431</LNAM>
+            <LNAM>0003ced7</LNAM>
+            <LNAM>0003d4b3</LNAM>
+            <LNAM>0003d4b6</LNAM>
+            <LNAM>0003d4b9</LNAM>
+            <LNAM>0006af1b</LNAM>
+            <LNAM>0006b097</LNAM>
+            <LNAM>0006af20</LNAM>
+            <LNAM>0006b0d1</LNAM>
+            <LNAM>0006af1d</LNAM>
+            <LNAM>00099548</LNAM>
+            <LNAM>00054963</LNAM>
+            <LNAM>0401dc6a</LNAM>
+            <LNAM>000f2f42</LNAM>
+            <LNAM>00093ec8</LNAM>
+            <LNAM>0002ee94</LNAM>
+            <LNAM>0002ed73</LNAM>
+            <LNAM>0010802e</LNAM>
+            <LNAM>000f4cee</LNAM>
+            <LNAM>0003107b</LNAM>
+            <LNAM>000b77c0</LNAM>
+            <LNAM>000d5558</LNAM>
+            <LNAM>0002ed76</LNAM>
+            <LNAM>00024bc5</LNAM>
+            <LNAM>00096eb9</LNAM>
+            <LNAM>0002ee86</LNAM>
+            <LNAM>0001ef59</LNAM>
+            <LNAM>0001ef3b</LNAM>
+            <LNAM>0005b56a</LNAM>
+            <LNAM>00024bad</LNAM>
+            <LNAM>0002ed74</LNAM>
+            <LNAM>00024c94</LNAM>
+            <LNAM>000223f2</LNAM>
+            <LNAM>0006592c</LNAM>
+            <LNAM>0005eb20</LNAM>
+            <LNAM>0002ee88</LNAM>
+            <LNAM>0001ef6c</LNAM>
+            <LNAM>00097ea0</LNAM>
+            <LNAM>0005eb21</LNAM>
+            <LNAM>00024d15</LNAM>
+            <LNAM>000223f0</LNAM>
+            <LNAM>000b679a</LNAM>
+            <LNAM>0007516e</LNAM>
+            <LNAM>0005d513</LNAM>
+            <LNAM>0005c097</LNAM>
+            <LNAM>0005b541</LNAM>
+            <LNAM>000310a7</LNAM>
+            <LNAM>00025265</LNAM>
+            <LNAM>000774bc</LNAM>
+            <LNAM>000531be</LNAM>
+            <LNAM>000531b4</LNAM>
+            <LNAM>00098354</LNAM>
+            <LNAM>000ee32a</LNAM>
+            <LNAM>000c585e</LNAM>
+            <LNAM>0001ef48</LNAM>
+            <LNAM>0002695c</LNAM>
+            <LNAM>0002ee91</LNAM>
+            <LNAM>0002ee90</LNAM>
+            <LNAM>0001ef56</LNAM>
+            <LNAM>0002695b</LNAM>
+            <LNAM>0001ef49</LNAM>
+            <LNAM>00026959</LNAM>
+            <LNAM>0002ee93</LNAM>
+            <LNAM>0001ef5b</LNAM>
+            <LNAM>0001ef55</LNAM>
+            <LNAM>00077333</LNAM>
+            <LNAM>00024b9b</LNAM>
+            <LNAM>0002695a</LNAM>
+            <LNAM>0002695e</LNAM>
+            <LNAM>0001ef47</LNAM>
+            <LNAM>0401ee73</LNAM>
+            <LNAM>0005c19b</LNAM>
+            <LNAM>000a4554</LNAM>
+            <LNAM>0005b508</LNAM>
+            <LNAM>00032a94</LNAM>
+            <LNAM>0001ef52</LNAM>
+            <LNAM>000a4dc7</LNAM>
+            <LNAM>00064ec6</LNAM>
+            <LNAM>000cd0af</LNAM>
+            <LNAM>0005b506</LNAM>
+            <LNAM>0003ff09</LNAM>
+            <LNAM>0401f9e4</LNAM>
+            <LNAM>0010d4a1</LNAM>
+            <LNAM>0008a0f4</LNAM>
+            <LNAM>0005c116</LNAM>
+            <LNAM>0002ed93</LNAM>
+            <LNAM>00024b98</LNAM>
+            <LNAM>00020f11</LNAM>
+            <LNAM>0001efea</LNAM>
+            <LNAM>000d5573</LNAM>
+            <LNAM>000cd0ea</LNAM>
+            <LNAM>00077ed2</LNAM>
+            <LNAM>0001ef65</LNAM>
+            <LNAM>0005493e</LNAM>
+            <LNAM>0005c19c</LNAM>
+            <LNAM>00020f27</LNAM>
+            <LNAM>0001ef4e</LNAM>
+            <LNAM>0401ee66</LNAM>
+            <LNAM>000cbb41</LNAM>
+            <LNAM>000a08cf</LNAM>
+            <LNAM>00024bba</LNAM>
+            <LNAM>0001ef4c</LNAM>
+            <LNAM>00026960</LNAM>
+            <LNAM>00077c8e</LNAM>
+            <LNAM>00024f39</LNAM>
+            <LNAM>000f3e26</LNAM>
+            <LNAM>000bb7ac</LNAM>
+            <LNAM>000b5993</LNAM>
+            <LNAM>000f3e27</LNAM>
+            <LNAM>00077569</LNAM>
+            <LNAM>000bb7ad</LNAM>
+            <LNAM>000b5994</LNAM>
+            <LNAM>0002695d</LNAM>
+            <LNAM>0002695f</LNAM>
+            <LNAM>000658fd</LNAM>
+            <LNAM>0007a085</LNAM>
+            <LNAM>00080e3b</LNAM>
+            <LNAM>0006021d</LNAM>
+            <LNAM>0403d13a</LNAM>
+            <LNAM>0006021e</LNAM>
+            <LNAM>0403d13c</LNAM>
+            <LNAM>00060222</LNAM>
+            <LNAM>00060223</LNAM>
+            <LNAM>0006021f</LNAM>
+            <LNAM>0403d133</LNAM>
+            <LNAM>00060220</LNAM>
+            <LNAM>0007f948</LNAM>
+            <LNAM>0007f949</LNAM>
+            <LNAM>0007f94e</LNAM>
+            <LNAM>000801e0</LNAM>
+            <LNAM>0402587d</LNAM>
+            <LNAM>04018629</LNAM>
+            <LNAM>000c06f4</LNAM>
+            <LNAM>0005d041</LNAM>
+            <LNAM>000b6266</LNAM>
+            <LNAM>0008cd45</LNAM>
+            <LNAM>0008cd62</LNAM>
+            <LNAM>000a731d</LNAM>
+        </FLST>
+    </GRUP>
+    <GRUP label="MESG" groupType="0" day="98" month="40" lastUserID="0" currentUserID="0" unknown01="0x00000000">
+        <MESG flags="0x00000000" id="0500081f" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown01="0x0000">
+            <EDID>_CNM_SatedMsg</EDID>
+            <DESC>You feel sated.</DESC>
+            <INAM>0</INAM>
+            <DNAM>0</DNAM>
+            <TNAM>2</TNAM>
+        </MESG>
+        <MESG flags="0x00000000" id="05000824" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown01="0x0000">
+            <EDID>_CNM_ColdMsg</EDID>
+            <DESC>You are cold.</DESC>
+            <INAM>0</INAM>
+            <DNAM>0</DNAM>
+            <TNAM>2</TNAM>
+        </MESG>
+        <MESG flags="0x00000000" id="05000827" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown01="0x0000">
+            <EDID>_CNM_WarmMsg</EDID>
+            <DESC>You feel warmer.</DESC>
+            <INAM>0</INAM>
+            <DNAM>0</DNAM>
+            <TNAM>2</TNAM>
+        </MESG>
+        <MESG flags="0x00000000" id="05000825" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown01="0x0000">
+            <EDID>_CNM_FreezingMsg</EDID>
+            <DESC>You are freezing cold.</DESC>
+            <INAM>0</INAM>
+            <DNAM>0</DNAM>
+            <TNAM>2</TNAM>
+        </MESG>
+        <MESG flags="0x00000000" id="05000823" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown01="0x0000">
+            <EDID>_CNM_ChillyMsg</EDID>
+            <DESC>You feel chilly.</DESC>
+            <INAM>0</INAM>
+            <DNAM>0</DNAM>
+            <TNAM>2</TNAM>
+        </MESG>
+        <MESG flags="0x00000000" id="0500081e" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown01="0x0000">
+            <EDID>_CNM_HungryMsg</EDID>
+            <DESC>You feel hungry.</DESC>
+            <INAM>0</INAM>
+            <DNAM>0</DNAM>
+            <TNAM>2</TNAM>
+        </MESG>
+        <MESG flags="0x00000000" id="05000820" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown01="0x0000">
+            <EDID>_CNM_LowBodyTempMsg</EDID>
+            <DESC>Your body temperature is dangerously low.</DESC>
+            <INAM>0</INAM>
+            <DNAM>0</DNAM>
+            <TNAM>2</TNAM>
+        </MESG>
+    </GRUP>
+    <GRUP label="DOBJ" groupType="0" day="98" month="40" lastUserID="0" currentUserID="0" unknown01="0x00000000">
+        <DOBJ flags="0x00000000" id="00000031" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown01="0x0000">
+            <DNAM>535256541B0800055352564506080005535256531A08000553525450DD2E0001</DNAM>
+        </DOBJ>
+    </GRUP>
+</plugin>
