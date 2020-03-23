@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<plugin version="0.3">
+<plugin version="0.3.3">
     <TES4 flags="0x00000200" id="00000000" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown01="0x0000">
         <HEDR>
             <struct version="1.70000005" numRecords="128" nextObjectID="00000842"/>
@@ -708,11 +708,11 @@
             <MODL>Clutter\Ingredients\MammothMeatCooked.nif</MODL>
             <MODT count="2">
                 <unknown3/>
+                <unknown5/>
                 <unknown4>
                     <unknownStruct unknown01="1101437283" textureType="dds" unknown02="1558007136"/>
                     <unknownStruct unknown01="2111056872" textureType="dds" unknown02="1558007136"/>
                 </unknown4>
-                <unknown5/>
             </MODT>
             <DATA>2</DATA>
             <ENIT>0800000003000000000000000000000094AF0C00</ENIT>
@@ -732,11 +732,11 @@
             <MODL>Clutter\DeadAnimals\RabbitMeatCooked01.nif</MODL>
             <MODT count="2">
                 <unknown3/>
+                <unknown5/>
                 <unknown4>
                     <unknownStruct unknown01="2365857889" textureType="dds" unknown02="3208661576"/>
                     <unknownStruct unknown01="2335777316" textureType="dds" unknown02="3208661576"/>
                 </unknown4>
-                <unknown5/>
             </MODT>
             <DATA>0.100000001</DATA>
             <ENIT>0300000003000000000000000000000094AF0C00</ENIT>
@@ -756,11 +756,11 @@
             <MODL>Clutter\DeadAnimals\PheasantMeatCooked01.nif</MODL>
             <MODT count="2">
                 <unknown3/>
+                <unknown5/>
                 <unknown4>
                     <unknownStruct unknown01="2365857889" textureType="dds" unknown02="3208661576"/>
                     <unknownStruct unknown01="907301406" textureType="dds" unknown02="3208661576"/>
                 </unknown4>
-                <unknown5/>
             </MODT>
             <DATA>0.200000003</DATA>
             <ENIT>0400000003000000000000000000000094AF0C00</ENIT>
@@ -780,11 +780,11 @@
             <MODL>Clutter\Ingredients\BeefMeat.nif</MODL>
             <MODT count="2">
                 <unknown3/>
+                <unknown5/>
                 <unknown4>
                     <unknownStruct unknown01="2849313110" textureType="dds" unknown02="1558007136"/>
                     <unknownStruct unknown01="293109297" textureType="dds" unknown02="1558007136"/>
                 </unknown4>
-                <unknown5/>
             </MODT>
             <DATA>0.200000003</DATA>
             <ENIT>0400000003000000000000000000000094AF0C00</ENIT>
@@ -804,11 +804,11 @@
             <MODL>Clutter\Ingredients\GoatMeat.nif</MODL>
             <MODT count="2">
                 <unknown3/>
+                <unknown5/>
                 <unknown4>
                     <unknownStruct unknown01="2586232624" textureType="dds" unknown02="1558007136"/>
                     <unknownStruct unknown01="1299183106" textureType="dds" unknown02="1558007136"/>
                 </unknown4>
-                <unknown5/>
             </MODT>
             <DATA>1</DATA>
             <ENIT>0300000003000000000000000000000094AF0C00</ENIT>
@@ -828,11 +828,11 @@
             <MODL>Clutter\Ingredients\HorkerMeat.nif</MODL>
             <MODT count="2">
                 <unknown3/>
+                <unknown5/>
                 <unknown4>
                     <unknownStruct unknown01="1373331603" textureType="dds" unknown02="1558007136"/>
                     <unknownStruct unknown01="2163729566" textureType="dds" unknown02="1558007136"/>
                 </unknown4>
-                <unknown5/>
             </MODT>
             <DATA>1</DATA>
             <ENIT>0300000003000000000000000000000094AF0C00</ENIT>
@@ -852,11 +852,11 @@
             <MODL>Clutter\Ingredients\HorseMeat.nif</MODL>
             <MODT count="2">
                 <unknown3/>
+                <unknown5/>
                 <unknown4>
                     <unknownStruct unknown01="3845987885" textureType="dds" unknown02="1558007136"/>
                     <unknownStruct unknown01="1292668789" textureType="dds" unknown02="1558007136"/>
                 </unknown4>
-                <unknown5/>
             </MODT>
             <DATA>2</DATA>
             <ENIT>0300000003000000000000000000000094AF0C00</ENIT>
@@ -876,11 +876,11 @@
             <MODL>Clutter\Ingredients\Venison.nif</MODL>
             <MODT count="2">
                 <unknown3/>
+                <unknown5/>
                 <unknown4>
                     <unknownStruct unknown01="2925021387" textureType="dds" unknown02="1558007136"/>
                     <unknownStruct unknown01="3340788923" textureType="dds" unknown02="1558007136"/>
                 </unknown4>
-                <unknown5/>
             </MODT>
             <DATA>2</DATA>
             <ENIT>0400000003000000000000000000000094AF0C00</ENIT>
@@ -900,8 +900,8 @@
             <MODL>DLC02\Clutter\DLC02AshHopperMeat.nif</MODL>
             <MODT count="2">
                 <unknown3/>
-                <unknown4/>
                 <unknown5/>
+                <unknown4/>
             </MODT>
             <DATA>0.5</DATA>
             <ENIT>0200000003000000000000000000000094AF0C00</ENIT>
@@ -921,8 +921,8 @@
             <MODL>Clutter\Ingredients\Stew.nif</MODL>
             <MODT count="2">
                 <unknown3/>
-                <unknown4/>
                 <unknown5/>
+                <unknown4/>
             </MODT>
             <MODS>
                 <texture name="Stew:10" textureID="0403cd5e" index="1"/>
@@ -950,8 +950,8 @@
             <MODL>DLC02\Clutter\DLC02ScribMeat.nif</MODL>
             <MODT count="2">
                 <unknown3/>
-                <unknown4/>
                 <unknown5/>
+                <unknown4/>
             </MODT>
             <DATA>1</DATA>
             <ENIT>0200000003000000000000000000000094AF0C00</ENIT>
@@ -971,13 +971,13 @@
             <MODL>Clutter\Ingredients\Stew.nif</MODL>
             <MODT count="2">
                 <unknown3/>
+                <unknown5/>
                 <unknown4>
                     <unknownStruct unknown01="3288553102" textureType="dds" unknown02="1558007136"/>
                     <unknownStruct unknown01="2954987715" textureType="dds" unknown02="1558007136"/>
                     <unknownStruct unknown01="1379563085" textureType="dds" unknown02="2460462734"/>
                     <unknownStruct unknown01="1805171391" textureType="dds" unknown02="2460462734"/>
                 </unknown4>
-                <unknown5/>
             </MODT>
             <MODS>
                 <texture name="Stew:10" textureID="0300354f" index="1"/>
@@ -1005,13 +1005,13 @@
             <MODL>Clutter\Ingredients\Stew.nif</MODL>
             <MODT count="2">
                 <unknown3/>
+                <unknown5/>
                 <unknown4>
                     <unknownStruct unknown01="3288553102" textureType="dds" unknown02="1558007136"/>
                     <unknownStruct unknown01="2954987715" textureType="dds" unknown02="1558007136"/>
                     <unknownStruct unknown01="1379563085" textureType="dds" unknown02="2460462734"/>
                     <unknownStruct unknown01="1805171391" textureType="dds" unknown02="2460462734"/>
                 </unknown4>
-                <unknown5/>
             </MODT>
             <MODS>
                 <texture name="Stew:10" textureID="0403d146" index="1"/>
@@ -1039,13 +1039,13 @@
             <MODL>Clutter\Ingredients\Stew.nif</MODL>
             <MODT count="2">
                 <unknown3/>
+                <unknown5/>
                 <unknown4>
                     <unknownStruct unknown01="3288553102" textureType="dds" unknown02="1558007136"/>
                     <unknownStruct unknown01="2954987715" textureType="dds" unknown02="1558007136"/>
                     <unknownStruct unknown01="1379563085" textureType="dds" unknown02="2460462734"/>
                     <unknownStruct unknown01="1805171391" textureType="dds" unknown02="2460462734"/>
                 </unknown4>
-                <unknown5/>
             </MODT>
             <MODS>
                 <texture name="Stew:10" textureID="0300354b" index="1"/>
@@ -1073,13 +1073,13 @@
             <MODL>Clutter\Ingredients\Stew.nif</MODL>
             <MODT count="2">
                 <unknown3/>
+                <unknown5/>
                 <unknown4>
                     <unknownStruct unknown01="3288553102" textureType="dds" unknown02="1558007136"/>
                     <unknownStruct unknown01="2954987715" textureType="dds" unknown02="1558007136"/>
                     <unknownStruct unknown01="1379563085" textureType="dds" unknown02="2460462734"/>
                     <unknownStruct unknown01="1805171391" textureType="dds" unknown02="2460462734"/>
                 </unknown4>
-                <unknown5/>
             </MODT>
             <MODS>
                 <texture name="Stew:10" textureID="0300354c" index="1"/>
@@ -1111,13 +1111,13 @@
             <MODL>Clutter\Ingredients\Stew.nif</MODL>
             <MODT count="2">
                 <unknown3/>
+                <unknown5/>
                 <unknown4>
                     <unknownStruct unknown01="3288553102" textureType="dds" unknown02="1558007136"/>
                     <unknownStruct unknown01="2954987715" textureType="dds" unknown02="1558007136"/>
                     <unknownStruct unknown01="1379563085" textureType="dds" unknown02="2460462734"/>
                     <unknownStruct unknown01="1805171391" textureType="dds" unknown02="2460462734"/>
                 </unknown4>
-                <unknown5/>
             </MODT>
             <MODS>
                 <texture name="Stew:10" textureID="0300354d" index="1"/>
@@ -1145,13 +1145,13 @@
             <MODL>Clutter\Ingredients\Stew.nif</MODL>
             <MODT count="2">
                 <unknown3/>
+                <unknown5/>
                 <unknown4>
                     <unknownStruct unknown01="3288553102" textureType="dds" unknown02="1558007136"/>
                     <unknownStruct unknown01="2954987715" textureType="dds" unknown02="1558007136"/>
                     <unknownStruct unknown01="1379563085" textureType="dds" unknown02="2460462734"/>
                     <unknownStruct unknown01="1805171391" textureType="dds" unknown02="2460462734"/>
                 </unknown4>
-                <unknown5/>
             </MODT>
             <MODS>
                 <texture name="Stew:10" textureID="03003552" index="1"/>
@@ -1179,13 +1179,13 @@
             <MODL>Clutter\Ingredients\Stew.nif</MODL>
             <MODT count="2">
                 <unknown3/>
+                <unknown5/>
                 <unknown4>
                     <unknownStruct unknown01="3288553102" textureType="dds" unknown02="1558007136"/>
                     <unknownStruct unknown01="2954987715" textureType="dds" unknown02="1558007136"/>
                     <unknownStruct unknown01="1379563085" textureType="dds" unknown02="2460462734"/>
                     <unknownStruct unknown01="1805171391" textureType="dds" unknown02="2460462734"/>
                 </unknown4>
-                <unknown5/>
             </MODT>
             <MODS>
                 <texture name="Stew:10" textureID="0300354a" index="1"/>
@@ -1217,13 +1217,13 @@
             <MODL>Clutter\Ingredients\Stew.nif</MODL>
             <MODT count="2">
                 <unknown3/>
+                <unknown5/>
                 <unknown4>
                     <unknownStruct unknown01="3288553102" textureType="dds" unknown02="1558007136"/>
                     <unknownStruct unknown01="2954987715" textureType="dds" unknown02="1558007136"/>
                     <unknownStruct unknown01="1379563085" textureType="dds" unknown02="2460462734"/>
                     <unknownStruct unknown01="1805171391" textureType="dds" unknown02="2460462734"/>
                 </unknown4>
-                <unknown5/>
             </MODT>
             <MODS>
                 <texture name="Stew:10" textureID="03003549" index="1"/>
@@ -1251,13 +1251,13 @@
             <MODL>Clutter\Ingredients\Stew.nif</MODL>
             <MODT count="2">
                 <unknown3/>
+                <unknown5/>
                 <unknown4>
                     <unknownStruct unknown01="3288553102" textureType="dds" unknown02="1558007136"/>
                     <unknownStruct unknown01="2954987715" textureType="dds" unknown02="1558007136"/>
                     <unknownStruct unknown01="1379563085" textureType="dds" unknown02="2460462734"/>
                     <unknownStruct unknown01="1805171391" textureType="dds" unknown02="2460462734"/>
                 </unknown4>
-                <unknown5/>
             </MODT>
             <MODS>
                 <texture name="Stew:10" textureID="03003550" index="1"/>
@@ -1285,11 +1285,11 @@
             <MODL>Plants\Gourd01.nif</MODL>
             <MODT count="2">
                 <unknown3/>
+                <unknown5/>
                 <unknown4>
                     <unknownStruct unknown01="2263981433" textureType="dds" unknown02="4196289555"/>
                     <unknownStruct unknown01="3882526323" textureType="dds" unknown02="4196289555"/>
                 </unknown4>
-                <unknown5/>
             </MODT>
             <DATA>0.200000003</DATA>
             <ENIT>0100000002000000000000000000000094AF0C00</ENIT>
@@ -1309,8 +1309,8 @@
             <MODL>_BYOH\Clutter\Wine\WineBottle03.nif</MODL>
             <MODT count="2">
                 <unknown3/>
-                <unknown4/>
                 <unknown5/>
+                <unknown4/>
             </MODT>
             <YNAM>0003edbd</YNAM>
             <ZNAM>0003edc0</ZNAM>
@@ -1336,8 +1336,8 @@
             <MODL>_BYOH\Clutter\Food\Tart01.nif</MODL>
             <MODT count="2">
                 <unknown3/>
-                <unknown4/>
                 <unknown5/>
+                <unknown4/>
             </MODT>
             <MODS>
                 <texture name="Tart01:0" textureID="03003548" index="0"/>
@@ -1364,8 +1364,8 @@
             <MODL>Clutter\Ingredients\Stew.nif</MODL>
             <MODT count="2">
                 <unknown3/>
-                <unknown4/>
                 <unknown5/>
+                <unknown4/>
             </MODT>
             <MODS>
                 <texture name="Stew:10" textureID="03003551" index="1"/>
@@ -1393,8 +1393,8 @@
             <MODL>Clutter\Ingredients\Stew.nif</MODL>
             <MODT count="2">
                 <unknown3/>
-                <unknown4/>
                 <unknown5/>
+                <unknown4/>
             </MODT>
             <MODS>
                 <texture name="Stew:10" textureID="03003553" index="1"/>
@@ -1422,8 +1422,8 @@
             <MODL>DLC02\Clutter\DLC02CyrodilacWine.nif</MODL>
             <MODT count="2">
                 <unknown3/>
-                <unknown4/>
                 <unknown5/>
+                <unknown4/>
             </MODT>
             <YNAM>0003edbd</YNAM>
             <ZNAM>0003edc0</ZNAM>
@@ -1449,8 +1449,8 @@
             <MODL>DLC02\Clutter\DLC02LocalLiquor.nif</MODL>
             <MODT count="2">
                 <unknown3/>
-                <unknown4/>
                 <unknown5/>
+                <unknown4/>
             </MODT>
             <YNAM>0003edbd</YNAM>
             <ZNAM>0003edc0</ZNAM>
@@ -1476,8 +1476,8 @@
             <MODL>DLC02\Clutter\DLC2Shein.nif</MODL>
             <MODT count="2">
                 <unknown3/>
-                <unknown4/>
                 <unknown5/>
+                <unknown4/>
             </MODT>
             <YNAM>0003edbd</YNAM>
             <ZNAM>0003edc0</ZNAM>
@@ -1503,8 +1503,8 @@
             <MODL>DLC02\Clutter\DLC2Matze1.nif</MODL>
             <MODT count="2">
                 <unknown3/>
-                <unknown4/>
                 <unknown5/>
+                <unknown4/>
             </MODT>
             <YNAM>0003edbd</YNAM>
             <ZNAM>0003edc0</ZNAM>
@@ -1534,8 +1534,8 @@
             <MODL>DLC02\Clutter\DLC02LocalLiquor.nif</MODL>
             <MODT count="2">
                 <unknown3/>
-                <unknown4/>
                 <unknown5/>
+                <unknown4/>
             </MODT>
             <YNAM>0003edbd</YNAM>
             <ZNAM>0003edc0</ZNAM>
@@ -1561,8 +1561,8 @@
             <MODL>DLC02\Clutter\DLC02CyrodilacWine.nif</MODL>
             <MODT count="2">
                 <unknown3/>
-                <unknown4/>
                 <unknown5/>
+                <unknown4/>
             </MODT>
             <YNAM>0003edbd</YNAM>
             <ZNAM>0003edc0</ZNAM>
@@ -1588,8 +1588,8 @@
             <MODL>DLC02\Clutter\DLC02BoarMeat.nif</MODL>
             <MODT count="2">
                 <unknown3/>
-                <unknown4/>
                 <unknown5/>
+                <unknown4/>
             </MODT>
             <DATA>1</DATA>
             <ENIT>0200000003000000000000000000000094AF0C00</ENIT>
