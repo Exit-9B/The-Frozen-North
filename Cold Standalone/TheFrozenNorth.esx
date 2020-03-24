@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<plugin version="0.3">
+<plugin version="0.3.3">
     <TES4 flags="0x00000200" id="00000000" day="0" month="0" lastUserID="0" currentUserID="0" version="44" unknown01="0x0000">
         <HEDR>
             <struct version="1.70000005" numRecords="73" nextObjectID="00000842"/>
