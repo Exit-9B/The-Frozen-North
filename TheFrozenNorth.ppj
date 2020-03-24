@@ -1,0 +1,50 @@
+<PapyrusProject
+  xmlns="PapyrusProject.xsd"
+  Flags="TESV_Papyrus_Flags.flg"
+  Output="@myproject\Scripts"
+  Game="sse"
+  Optimize="true" Anonymize="true" Package="true" Zip="true">
+  <Variables>
+    <Variable Name="modname" Value="The Frozen North"/>
+    <Variable Name="plugin" Value="TheFrozenNorth"/>
+    <Variable Name="myproject" Value="E:\ModOrganizer\SkyrimSE\mods\@modname"/>
+  </Variables>
+  <Imports>
+    <Import>@myproject\Source\Scripts</Import>
+    <Import>E:\SteamLibrary\steamapps\common\Skyrim Special Edition\Data\Source\Scripts</Import>
+  </Imports>
+  <Scripts>
+    <Script>_CNM_MagicAddAbilityScript.psc</Script>
+    <Script>_CNM_MagicFoodFullScript.psc</Script>
+    <Script>_CNM_MagicFoodScript.psc</Script>
+    <Script>_CNM_MagicNotifyScript.psc</Script>
+    <Script>_CNM_PlayerColdScript.psc</Script>
+    <Script>_CNM_PlayerHeatSourceScript.psc</Script>
+    <Script>_CNM_PlayerHungerScript.psc</Script>
+    <Script>_CNM_PlayerSleepScript.psc</Script>
+  </Scripts>
+  <Packages Output="@myproject">
+    <Package Name="@plugin" RootDir="@myproject">
+      <Include NoRecurse="false">Interface</Include>
+      <Include NoRecurse="true">Scripts</Include>
+    </Package>
+    <Package Name="Cold Standalone\@plugin" RootDir="@myproject">
+      <Include NoRecurse="false">Interface</Include>
+      <Include>Scripts\_CNM_MagicNotifyScript.pex</Include>
+      <Include>Scripts\_CNM_PlayerColdScript.pex</Include>
+      <Include>Scripts\_CNM_PlayerHeatSourceScript.pex</Include>
+    </Package>
+  </Packages>
+  <ZipFile Name="@modname" RootDir="@myproject" Output="@myproject" Compression="deflate">
+    <Include>@plugin.esp</Include>
+    <Include>@plugin.bsa</Include>
+    <Include NoRecurse="true">Source\Scripts</Include>
+  </ZipFile>
+  <ZipFile
+    Name="@modname - Cold Standalone"
+    RootDir="@myproject\Cold Standalone"
+    Output="@myproject" Compression="deflate">
+    <Include>@plugin.esp</Include>
+    <Include>@plugin.bsa</Include>
+  </ZipFile>
+</PapyrusProject>
