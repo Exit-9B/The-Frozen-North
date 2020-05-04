@@ -1,7 +1,7 @@
 Scriptname _CNM_PlayerHeatSourceScript extends ReferenceAlias
 
 int myVersion = 100
-int Property Version = 152  AutoReadOnly
+int Property Version = 160  AutoReadOnly
 
 Actor Property PlayerRef  Auto
 
@@ -132,10 +132,16 @@ function InitializeCompatibility()
 		StandardHeatSources.AddForm(Game.GetFormFromFile(0x000328b9, "Campfire.esm") as Activator)
 		StandardHeatSources.AddForm(Game.GetFormFromFile(0x00033e67, "Campfire.esm") as Activator)
 		StandardHeatSources.AddForm(Game.GetFormFromFile(0x00033e69, "Campfire.esm") as Activator)
+		
+		if (Game.GetModByName("CampfireCabin.esp") != 255)
+			; let stove have a large radius to heat up the rest of the cabin
+			StandardHeatSources.AddForm(Game.GetFormFromFile(0x00005E81, "CampfireCabin.esp") as Activator)
+		endIf
 	endIf
 	
 	if (Game.GetModByName("Campsite.esp") != 255)
 		StandardHeatSources.AddForm(Game.GetFormFromFile(0x00005902, "Campsite.esp") as Activator)
 	endIf
+	
 endFunction
 

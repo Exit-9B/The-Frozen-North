@@ -1,7 +1,7 @@
 ﻿Scriptname _CNM_PlayerColdScript extends ReferenceAlias
 
 int myVersion = 100
-int Property Version = 152  AutoReadOnly
+int Property Version = 160  AutoReadOnly
 
 Actor Property PlayerRef  Auto
 
@@ -169,6 +169,9 @@ function EnsureLatestVersion()
 	endIf
 	if (myVersion < 150)
 		BuffAbilityWarm = Game.GetFormFromFile(0x832, "TheFrozenNorth.esp") as Spell
+	endIf
+	if (myVersion < 160)
+		Sunrise.SetValue(8.5)
 	endIf
 	
 	myVersion = Version
@@ -348,12 +351,14 @@ function UpdateTemperature(int aiNewTemperature)
 	endIf
 	
 	int iTempThreshold = LowBodyTempThreshold.GetValueInt()
-	if (previousTemp > iTempThreshold && currentTemp <= iTempThreshold)
+	; TFN 1.6.0: We had a report of this spell being on the player erroneously, so just update every
+	; time regardless of previous
+	if (currentTemp <= iTempThreshold)
 		PlayerRef.AddSpell(DebuffAbilityLowBodyTemp, false)
-	elseIf (previousTemp <= iTempThreshold && currentTemp > iTempThreshold)
+	else
 		PlayerRef.RemoveSpell(DebuffAbilityLowBodyTemp)
 	endIf
-
+	
 	if (previousTemp < TEMP_NONE && currentTemp >= TEMP_NONE)
 		RunVerboseFeedback(WarmMsg)
 	endIf

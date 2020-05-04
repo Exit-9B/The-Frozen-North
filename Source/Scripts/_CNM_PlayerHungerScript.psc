@@ -57,6 +57,10 @@ event OnUpdateGameTime()
 	lastValue = PlayerRef.GetAV(FoodAV)
 endEvent
 
+event OnVampireFeed(Actor akTarget)
+	SetToFull()
+endEvent
+
 function SetToHungry()
 	if (PlayerRef.GetAV(FoodAV) > 0.0)
 		UnregisterForUpdateGameTime()
