@@ -35,16 +35,18 @@
       <Include>Scripts\_CNM_PlayerHeatSourceScript.pex</Include>
     </Package>
   </Packages>
-  <ZipFile Name="@modname" RootDir="@myproject" Output="@myproject" Compression="deflate">
-    <Include>@plugin.esp</Include>
-    <Include>@plugin.bsa</Include>
-    <Include NoRecurse="true">Source\Scripts</Include>
-  </ZipFile>
-  <ZipFile
-    Name="@modname - Cold Standalone"
-    RootDir="@myproject\Cold Standalone"
-    Output="@myproject" Compression="deflate">
-    <Include>@plugin.esp</Include>
-    <Include>@plugin.bsa</Include>
-  </ZipFile>
+  <ZipFiles Output="@myproject">
+    <ZipFile Name="@modname" RootDir="@myproject" Compression="deflate">
+      <Include>@plugin.esp</Include>
+      <Include>@plugin.bsa</Include>
+      <Include NoRecurse="true">Source\Scripts</Include>
+    </ZipFile>
+    <ZipFile
+      Name="@modname - Cold Standalone"
+      RootDir="@myproject\Cold Standalone"
+      Compression="deflate">
+      <Include>@plugin.esp</Include>
+      <Include>@plugin.bsa</Include>
+    </ZipFile>
+  </ZipFiles>
 </PapyrusProject>
